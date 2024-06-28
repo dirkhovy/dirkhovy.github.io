@@ -19,57 +19,49 @@ date_format = "January 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Assistant Professor"
+  title = "Full Professor"
   company = "Bocconi University"
   company_url = "https://cs.unibocconi.eu/"
   location = "Milano - Italy"
-  date_start = "2022-09-01"
+  date_start = "2023-09-01"
   date_end = ""
   description = ""
 
 [[experience]]
-  title = "Postdoctoral Researcher"
+  title = "Associate Professor"
   company = "Bocconi University"
-  company_url = "http://www.bidsa.unibocconi.eu/"
+  company_url = "https://cs.unibocconi.eu/"
   location = "Milano - Italy"
-  date_start = "2020-02-01"
-  date_end = "2022-08-31"
+  date_start = "2018-02-01"
+  date_end = "2023-09-01"
   description = ""
 
-  [[experience]]
+[[experience]]
+  title = "Associate Professor"
+  company = "University of Copenhagen"
+  company_url = ""
+  location = "Copenhagen - Denmark"
+  date_start = "2016-09-01"
+  date_end = "2018-31-01"
+  description = ""
+
+
+[[experience]]
   title = "Postdoctoral Researcher"
-  company = "University of Milano Bicocca"
-  company_url = "https://www.unimib.it/"
-  location = "Milano - Italy"
-  date_start = "2018-01-01"
-  date_end = "2020-01-31"
+  company = "University of Copenhagen"
+  company_url = ""
+  location = "Copenhagen - Denmark"
+  date_start = "2013-08-01"
+  date_end = "2016-08-31"
   description = ""
 
 [[experience]]
   title = "Phd Student"
-  company = "University of Milano Bicocca"
-  company_url = "https://www.unimib.it/"
-  location = "Milano - Italy"
-  date_start = "2014-10-01"
-  date_end = "2020-10-31"
-  description = ""
-
-[[experience]]
-  title = "Visting Phd Student"
-  company = "Centre Inria Sophia Antipolis - Méditerranée"
-  company_url = "https://www.inria.fr/fr/centre-inria-sophia-antipolis-mediterranee"
-  location = "Valbonne - France"
-  date_start = "2017-02-01"
-  date_end = "2017-05-01"
-  description = ""
-
- [[experience]]
-  title = "Internship Master Student"
-  company = "Laboratoire d'Informatique de Paris 6"
-  company_url = "https://www.lip6.fr/"
-  location = "Paris - France"
-  date_start = "2014-02-01"
-  date_end = "2013-10-01"
+  company = "University of Southern California"
+  company_url = "https://www.usc.edu"
+  location = "Los Angeles, CA - USA"
+  date_start = "2008-08-01"
+  date_end = "2013-08-15"
   description = ""
 
 
