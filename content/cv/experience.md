@@ -42,7 +42,7 @@ date_format = "January 2006"
   company_url = ""
   location = "Copenhagen - Denmark"
   date_start = "2016-09-01"
-  date_end = "2018-31-01"
+  date_end = "2018-01-31"
   description = ""
 
 
