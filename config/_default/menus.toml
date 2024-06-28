@@ -24,7 +24,7 @@
     weight = 20
   [[main]]
     name = "Talks"
-    url = "/talks"
+    url = "/talk"
     parent = "Research"
     weight = 40
   [[main]]
