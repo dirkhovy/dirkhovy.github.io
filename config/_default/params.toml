@@ -53,7 +53,7 @@ time_format = "15:04"
 email = "dirk.hovy@unibocconi.it"
 phone = ""
 address = "Via Roentgen 1-2, 20136 Milan, MI, Italy"
-formspree = "f/mvovnezv"
+formspree = ""
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
