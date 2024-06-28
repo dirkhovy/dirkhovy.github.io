@@ -2,14 +2,14 @@
 # Documentation: https://sourcethemes.com/academic/
 
 # Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
-color_theme = "ocean"
+#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`. debora
+color_theme = "default"
 # Enable users to switch between day and night mode?
 day_night = true
 
 # Font style.
-#   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+#   Choose from `default`, `classic`, or `playfair`. debora
+font = "debora"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "Personal website of Dirk Hovy, Professor at Bocconi University, interested in Natural Language Processing and Machine Learning."
@@ -95,9 +95,9 @@ zoom = 15
 ############################
 
 # Load CSS and JS plugins
-#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`. debora
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = ["debora"]
+plugins_css = ['debora']
 plugins_js  = []
 
 ############################

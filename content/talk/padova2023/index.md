@@ -1,26 +1,26 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Etica e bias nell'intelligenza artificiale"
-event: Smarter Podcast
+title: "Before and after chatGPT: chances, changes, and opportunities of large language models in research"
+event: "University of Padova – Physics of Data"
 event_url: 
 location:
-summary: <iframe width="560" height="315" src="https://www.youtube.com/embed/kU8zvmifyHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+summary: <iframe width="560" height="315" src="https://www.youtube.com/embed/GdahMrKth2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 abstract: 
 
 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2020-10-12T14:39:32+02:00
-date_end: 2020-10-12T14:39:32+02:00
+date: 2023-05-23T16:45:32+02:00
+date_end: 2023-05-23T18:15:32+02:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: 2021-04-09T14:39:32+02:00
 
 authors: []
-tags: []
+tags: [talk]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -46,7 +46,7 @@ url_slides:
 
 url_code:
 url_pdf:
-url_video: https://www.youtube.com/watch?v=kU8zvmifyHE&t=1486s
+url_video: https://www.youtube.com/watch?v=GdahMrKth2I
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -62,4 +62,4 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kU8zvmifyHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GdahMrKth2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
