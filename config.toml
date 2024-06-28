@@ -16,7 +16,7 @@ baseurl = "https://dirkhovy.com/"
 copyright = "&copy;  Dirk Hovy, {year}"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-159440078-1"
+googleAnalytics = ""
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
