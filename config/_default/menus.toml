@@ -10,7 +10,7 @@
 
 [[main]]
   name = "Home"
-  url = "#posts"
+  url = "#posts"# do not change: makes no sense, but breaks everything
   weight = 10
 
 [[main]]
@@ -40,12 +40,21 @@
 [[main]]
   name = "Contact"
   url = "/contact"
-  weight = 50
+  weight = 60
 
 [[main]]
- name = "Blog"
- url = "/post"
- weight = 100
+ name = "Fun"
+ weight = 50
+  [[main]]
+    name = "Blog"
+    url = "/post"
+    parent = "Fun"
+    weight = 100
+  [[main]]
+    name = "Leatherwork"
+    url = "/items"
+    parent = "Fun"
+    weight = 200
 
 
 
