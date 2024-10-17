@@ -63,7 +63,7 @@ Welcome!
 
 I am a Professor in the [Computing Sciences Department of Bocconi University](https://cs.unibocconi.eu/) in Milan, where I lead the [MilaNLP](https://milanlproc.github.io/) lab together with [Debora Nozza](http://www.deboranozza.com).
 I am also the scientific director of the [Data and Marketing Insights](www.dmi.unibocconi.eu/) research unit. 
-Previously, I was CS faculty at the University of Copenhagen, got a PhD from USC's Information Sciences Institute, and a linguistics master's in Germany.
+Previously, I was CS faculty at the University of Copenhagen, got a PhD from USC's Information Sciences Institute, and a degree in linguistics from Marburg University, Germany.
 
 I am interested in the interaction between language, society, and machine learning, or **what computers can tell us about language and what language can tell us about society**. I am also interested in ethical questions of bias and algorithmic fairness in machine learning.
 
