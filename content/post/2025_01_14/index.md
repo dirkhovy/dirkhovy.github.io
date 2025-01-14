@@ -60,7 +60,6 @@ Grants give you **freedom and independence**. Freedom to explore the areas you w
 
 If you apply for an academic position, you will be expected to teach. There are sometimes incentives for this (teaching awards as positive, student evaluations as a negative incentive), but it will be a given. You should have a **teaching statement** and some prepared material, but do not sweat this too much: early on, you are not expected to have a ton of teaching already. For better or worse, **teaching quality rarely enters into hiring decisions** (we all had that one prof). 
 Fight hard to **get a class on a topic you know** well, and fight even harder to keep it. Preparing a new class is a bottomless time sink, especially in areas you do not know well. If you can use the materials of a more experienced colleague, do so. Resist the urge to make your own or to tinker too much. If you have to make your own class from scratch, make sure you will teach it for the foreseeable future. Plan ahead. Make it count. You do not have to have the perfect material in your first year. **It takes about three times to get a class fine-tuned** and make it your own. Don't expect to know everything after one year.
-
 More than with anything else, **perfection is the enemy of the good** in teaching prep. You can spend any amount of time preparing. 
 
 Don't. 
@@ -69,7 +68,7 @@ Realize that **students are not out to expose you**: They want to learn from you
 
 Prepare an outline of the class, and think about what you want students to learn from it. **Gear everything towards that learning outcome**. Refer back to that outline often. Do not be afraid to change it if you see it makes more sense in a different order. You will not know ahead of time. Use plenty of examples, and wrap up each class with take-home points. Worry more about the learning outcome than about grade curves or evaluations. Teaching can be gratifying and rewarding if you learn what works for you. It is worth investing in that. It can be a great complement to research, or it can be a drag. It is up to you how to approach it.
 
-Know that **evaluations are not objective**. They measure how much students liked you as much as how well they learned. **If you are female, more junior, or not white, your evaluations will be worse than that of white, male, more senior colleagues**. Use this to discount the numerical outcomes. 
+Know that **evaluations are not objective**. They measure how much students liked you as much as how well they learned. **If you are female, more junior, or not white, your evaluations will likely be worse than that of white, male, more senior colleagues**. Use this to discount the numerical outcomes. 
 
 Do **pay attention to valid concerns** in the written part, but be prepared for contradictions. I have been told in one of my first classes that I was simultaneously too fast, too slow, too technical, not technical enough, too strict, and the nicest teacher all year. **Discard the emotions** and look for constructive feedback.
 
@@ -136,7 +135,7 @@ Make sure to take at least one day a week completely off. That also means no ema
 
 Go on vacation, and set your OOO response for one more day than you are away. You can use it to catch up on email.
 
-Don’t feel like you have to be perfect. Make a plan, be prepared, but know that things will blindside you, that things will not work out. And that’s ok. So will you be. I have failed many times, and usually it didn’t matter. You have my permission to fail, and if anyone complains (including your inner critic), they can take it up with me. I will not think any less of you. 
+Don’t feel like you have to be perfect. Make a plan, be prepared, but know that things will blindside you, that things will not work out. And that’s ok. So will you be. I have failed many times, and usually it didn’t matter. Our jobs are not heart surgery.
 
 Lastly, realize that you are given one of the potentially best and most self-directed jobs there are, but that it’s still a job. Don’t let it distract you from the importance of friends, family, and your health.
 
