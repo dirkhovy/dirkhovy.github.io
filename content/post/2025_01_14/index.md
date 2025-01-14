@@ -3,19 +3,20 @@ title: "How to professor"
 authors: [Dirk Hovy]
 date: 2025-01-14
 ---
-# How to professor
 
-Here are some thoughts on what to do if you plan to become a professor (or, more generally, a professional researcher) in NLP. It's entirely based on my own experience: I've worked two tenure track jobs, one more research-focused in a CS dept and one with more teaching in a Business School. I fact-checked with some people, but it's probably still not always generalizable.
+It feels not long ago that I was worried about my job applications, but in reality, I have done this long enough that some of my first MSc supervisees are professors of their own now. Every few months, a lab member goes on the academic job market, and we have a conversation about how to best approach it. 
+
+So I decided to collect those thoughts on what to do if you plan to become a professor (or, more generally, a professional researcher) in NLP. It's entirely based on my own experience: I've worked two tenure track jobs, one more research-focused in a CS dept and one with more teaching in a Business School. I fact-checked with some people, but it's probably still not always generalizable.
 
 If it helps you make up your mind, though, go ahead :)
 
 ## Where to go
-===========
+----
 
 The first question is where to go. Part of that is your active decision: Do you enjoy **teaching or research** more? Part of that is out of your hands: There might not be a position in the city, region, or even country you would like to go to. So you will have to be flexible, but it pays to have a **robust set of criteria**. Also, keep an open mind. There are plenty of options: **traditional university jobs, business schools, think tanks, industry research labs, or government research facilities**. There might be even more. They all come with pros and cons, but it is a good idea to include all applicable ones in your search. Much of what follows is outside your control, but choosing to apply (and where) is most definitely within it.
 
 ## Finding a position
-==================
+----
 
 Many, if not most, positions you apply for are already spoken for but have to run a public call nonetheless. You will do the whole song and dance, but you never actually had a chance to get it. Unfortunately, being rejected from a competition that was never open holds very little information. You will not know beforehand which kind of competition it is. **Give it your best go, but do not get discouraged**. You do not know what a committee is looking for. They might look for people with a specific research profile, a specific demographic, or a specific skill. While this uncertainty is grating, it can also be consoling. You might not have gotten rejected because you were not good enough in the things you have control over – you might just not be the person they want. Nothing you can do about that. After being placed in the first position, I once got rejected because the hiring department decided to build a bridge to another department that required a specific subject area. One of the other candidates happened to have that specialization. I did not. They hired him. It wasn't part of the initial call, and it wasn't something they had planned. It happens.
 
@@ -118,7 +119,7 @@ How much you can choose and experiment also depends on your career stage. Earlie
 But do not get stuck in minor variations of the same theme either.
 
 ## Running a lab
-=============
+----
 
 Depending on your choices, you might have the chance to build up a lab. This is sometimes even expected. If you have a choice, consider the options. **Working with a lab allows you to explore more research areas**, but it will replace a large chunk of your time with **managerial duties, admin, and bureaucracy**. That chunk usually comes out of your active research time. Working alone means less collaboration on a day-to-day basis, but also no managerial responsibilities. Either way, fight hard to **keep a day clear of all meetings** and admin to do your own research. Mark it in your calendar as blocked, and **do not make exceptions**. Ever. If you make an exception for a good reason, you'll soon make one for a bad reason.
 
@@ -129,7 +130,7 @@ If you do build a lab, realize that you will spend more time each day with these
 Be flexible and **don’t be afraid to change things**. The meeting day does not work for most of the group? Find a different day. The format of the internal talks feels boring? Try shortening it, restrict the topics, make it an interpretative dance. You are not forced to stick to something if it does not work. Occasionally, it can be good to try something new even if nobody feels the need. You can always change it back.
 
 ## Final thoughts
-==============
+----
 
 Make sure to take at least one day a week completely off. That also means no email. Keep some hobbies, especially sports. You can get away with a lot of neglect in your 20s, but it will catch up, and you don’t want to lose time fixing a preventable injury. Our jobs require a lot of sitting at a computer: counteract that with whatever sports you enjoy.
 
