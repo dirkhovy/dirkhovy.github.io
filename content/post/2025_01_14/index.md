@@ -22,7 +22,7 @@ The first question is where to go. Part of that is your active decision: Do you 
 
 Some (though luckily not all) positions you apply for are already spoken for but have to run a public call nonetheless. You will do the whole song and dance, but you never actually had a chance to get it. Unfortunately, being rejected from a competition that was never open holds very little information. You will not know beforehand which kind of competition it is. 
 
-**Expect to apply for 20 positions or more** for any match (depending on the field). Try to **get practice interviews** (for positions you do not care too much about). Your first interview should not be for your dream job.
+**Expect to apply for 20 positions or more** for any match (depending on the field). Try to **get practice interviews**. Your first interview should not be for your dream job.
 
 In general, you will be judged by these four aspects, in descending order of importance:
 
