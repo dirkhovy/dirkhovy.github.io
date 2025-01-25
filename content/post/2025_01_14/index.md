@@ -141,10 +141,7 @@ Don’t feel like you have to be perfect. Make a plan, be prepared, but know tha
 
 Lastly, realize that you are given one of the potentially best and most self-directed jobs there are, but that it’s still a job. Don’t let it distract you from the importance of friends, family, and your health.
 
-## Acknowledgments:
-----
-
-Some of the better advice in here is based on tips from Dan Jurafsky, Ed Hovy, Lyle Ungar, and Nel Dutt.
+(Some of the better advice in here is based on tips from Dan Jurafsky, Ed Hovy, Lyle Ungar, and Nel Dutt. Thanks!)
 
 “Things of great importance have to be taken lightly.” 
 
