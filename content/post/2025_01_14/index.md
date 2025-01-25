@@ -94,7 +94,7 @@ Take some time to **understand how your workplace functions**: structurally, pro
 Agree to help out with **one committee in your university**, but choose which one. Say no to all others. Especially junior female professors are often expected to do a lot of service, and it can easily take over too much time that should go to research and building your profile.
 
 ## Publicity
-=========
+----
 
 Ideally, good work would bubble to the top. That's not what happens, though. All things being equal, research from big schools or well-known co-authors get cited more. Research that was promoted on social media and is easy to find gets cited more. Research that made it into the news gets cited more. As a researcher, it is your job to publish and then publicize your findings. Getting it into a venue is **not** enough. 
 
@@ -107,7 +107,7 @@ When you go up for tenure, schools will send out requests for reference letters 
 Making it into the press is usually a matter of supplying your press office with a release and hoping they get it out or promoting it on Twitter. **Newspapers rarely trawl conference proceedings**. Journalists are similar to researchers in that they are looking for interesting new findings. However, they are under much more time and space constraints, which often does not leave room for subtlety. When giving an interview, prepare: **What single sentence do you want them to take away from the interview**? Repeat that one. Make your points clear and simple: people have no time to read up on the background knowledge. Use simple examples and images. Take notes of all the things you want to cover in the interview and make sure to tick them off as you go. **Ask for written questions ahead of time**. After the interview, **ask for a draft** or at least the quotes of you before publication. Sharing this should be standard, but sometimes it is not. Those proofs are your only chance to correct the record if you have been misunderstood (it happens, even with preparation). Remember that **you can mark certain things as "off the record."**
 
 ## Staying creative and managing projects
-======================================
+----
 
 Whatever route you take, you will have to generate new research ideas. When you are in industry, you should never be irreplaceable. When you are in academia, you need to be one of a kind. Either way, you should be original and creative. It does get easier over time, but it takes work. **Find out what inspires you**, and seek that out. For me, it is interacting with people on visits or conferences and then distracting myself with something creative but unrelated to push it forward. Trust your instinct: if you need a day of slacking and playing video games, it might just be your brain recharging and making new connections.
 
