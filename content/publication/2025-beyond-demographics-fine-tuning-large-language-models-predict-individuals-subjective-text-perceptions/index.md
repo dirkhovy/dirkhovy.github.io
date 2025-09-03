@@ -2,8 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals' Subjective Text Perceptions"
-authors: ["Matthias Orlikowski", "Jiaxin Pei", "Paul R\xF6ttger", "Philipp Cimiano"
-  ,"David Jurgens","Dirk Hovy"]
+authors: ["Matthias Orlikowski", "Jiaxin Pei", "Paul Röttger", "Philipp Cimiano","David Jurgens","Dirk Hovy"]
 date: 2025/7
 doi: ''
 publishDate: '2025-07-01T00:00:00+01:00'
