@@ -213,7 +213,7 @@ Beyond that, it's of course up to the reviewers and funders whether they like yo
 
 ### Conclusion
 Both scientific papers and grant proposals should be clearly written to effectively communicate their potential impact and win over reviewers. The tools and strategies outlined here give you a scientific writing foundation to achieve that.
-Beyond that, aim for clarity, structure, and persuasiveness. Use concise language and tailor your message to your audience for the best results. But most of all: start early, keep iterating on the draft, get lots of feedback, and most of all: have fun with it. Happy writing!
+Beyond that, aim for clarity, structure, and persuasiveness. Use concise language and tailor your message to your audience for the best results. But most of all: start early, keep iterating on the draft, get lots of feedback, and have fun with it. Happy writing!
 
 ### Further Reading
 When I wrote my thesis, I discovered **A Manual for Writers of Research Papers, Theses, and Dissertations: Chicago Style for Students and Researchers** by Kate Turabian. I wish I had known about it earlier. It helped me a lot. Some parts can be safely ignored if you use modern typesetting and word processors (e.g., how to make tables or insert images), but the stylistic advice still stands.
