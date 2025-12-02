@@ -4,27 +4,30 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`. debora
-color_theme = "default"
+#color_theme = "default"
 # Enable users to switch between day and night mode?
+theme = "minimal_1950s"
 day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`. debora
-font = "default"
+font = ""
 font_size = "M"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "Personal website of Dirk Hovy, Professor at Bocconi University, interested in Natural Language Processing and Machine Learning."
+site_type = "Person"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = "via_lattea_small.jpg"
+# sharing_image = "via_lattea_small.jpg"
+sharing_image = ""
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
 #twitter = "dirk_hovy"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-logo = ""
+# logo = ""
 
 # Enable global source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
@@ -34,12 +37,12 @@ highlight_style = "paraiso-light"  # For supported styles, see https://cdnjs.com
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
-math = false
+math = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = true
+privacy_pack = false
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -53,8 +56,8 @@ time_format = "15:04"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "dirk.hovy@unibocconi.it"
-phone = ""
-address = "Via Roentgen 1-2, 20136 Milan, MI, Italy"
+# phone = ""
+# address = "Via Roentgen 1-2, 20136 Milan, MI, Italy"
 formspree = "f/xldrrqrb"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
@@ -86,11 +89,11 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 0
-map_api_key = ""
-latitude = "45.451158"
-longitude = "9.187455"
-zoom = 15
+[map]
+  engine = 0
+  api_key = ""
+  zoom = 15
+
 
 ############################
 ## Plugins                ##
@@ -99,7 +102,7 @@ zoom = 15
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`. debora
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = ['debora']
+#plugins_css = ['debora']
 plugins_js  = []
 
 ############################

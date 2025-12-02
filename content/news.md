@@ -13,6 +13,6 @@ List of news.
 image = ""
 caption = ""
 
-+++
+# {{< readfromfile "/content/newslist.dat" 1000 >}}
 
-{{< readfromfile "/content/newslist.dat" 1000 >}}
++++
