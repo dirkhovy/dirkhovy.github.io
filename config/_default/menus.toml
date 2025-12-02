@@ -10,7 +10,7 @@
 
 [[main]]
   name = "Home"
-  url = "#posts"# do not change: makes no sense, but breaks everything
+  url = "/"# do not change: makes no sense, but breaks everything
   weight = 10
 
 [[main]]
