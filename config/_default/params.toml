@@ -10,7 +10,8 @@ day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`. debora
-font = "debora"
+font = "default"
+font_size = "M"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "Personal website of Dirk Hovy, Professor at Bocconi University, interested in Natural Language Processing and Machine Learning."
@@ -19,7 +20,7 @@ description = "Personal website of Dirk Hovy, Professor at Bocconi University, i
 sharing_image = "via_lattea_small.jpg"
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = "dirk_hovy"
+#twitter = "dirk_hovy"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
