@@ -42,3 +42,19 @@
 .navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #e8e8e8 !important; /* Slightly darker grey on hover */
 }
+
+/* Year heading styles for publications */
+.year-heading {
+  width: 100% !important;
+  clear: both;
+  page-break-inside: avoid;
+}
+
+/* Year heading text color - theme-aware */
+.year-heading h2 {
+  color: #333 !important; /* Dark color for light theme */
+}
+
+.dark .year-heading h2 {
+  color: rgb(152, 166, 173) !important; /* Light color for dark theme - matches theme's h2 color */
+}
