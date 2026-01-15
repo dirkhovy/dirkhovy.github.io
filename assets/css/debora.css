@@ -324,3 +324,15 @@ iframe {
 .dark a:hover {
 	color: #fff;
 }
+
+/* Year headings in publications */
+.year-heading {
+  width: 100% !important;
+  clear: both;
+  page-break-inside: avoid;
+}
+
+.year-heading-spacer {
+  width: 100% !important;
+  clear: both;
+}
