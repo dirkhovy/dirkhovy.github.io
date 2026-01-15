@@ -50,7 +50,16 @@
 {{/* Config LaTeX math rendering. */}}
 {{ if or .Params.math site.Params.math }}
 {{ $mathjax_config := resources.Get "js/mathjax-config.js" }}
-<script src="{{ $mathjax_config.RelPermalink }}"></script>
+{{ $mathjax_url := $mathjax_config.RelPermalink }}
+{{/* Always ensure HTTPS when baseurl is HTTPS */}}
+{{ if hasPrefix site.BaseURL "https://" }}
+  {{ if hasPrefix $mathjax_url "http://" }}
+    {{ $mathjax_url = strings.Replace $mathjax_url "http://" "https://" 1 }}
+  {{ else if not (hasPrefix $mathjax_url "http") }}
+    {{ $mathjax_url = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $mathjax_url }}
+  {{ end }}
+{{ end }}
+<script src="{{ $mathjax_url }}"></script>
 {{ end }}
 
 {{/* Attempt to load local vendor CSS, otherwise load from CDN. */}}
@@ -135,12 +144,10 @@
 {{/* Ensure CSS URL is always HTTPS when baseurl is HTTPS */}}
 {{ $css_url := $style.RelPermalink }}
 {{ if hasPrefix site.BaseURL "https://" }}
-  {{/* If URL is relative, make it absolute with HTTPS baseurl */}}
-  {{ if not (hasPrefix $css_url "http") }}
-    {{ $css_url = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $css_url }}
-  {{/* If URL is HTTP, convert to HTTPS */}}
-  {{ else if hasPrefix $css_url "http://" }}
+  {{ if hasPrefix $css_url "http://" }}
     {{ $css_url = strings.Replace $css_url "http://" "https://" 1 }}
+  {{ else if not (hasPrefix $css_url "http") }}
+    {{ $css_url = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $css_url }}
   {{ end }}
 {{ end }}
 <link rel="stylesheet" href="{{ $css_url }}">
