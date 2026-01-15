@@ -51,11 +51,13 @@
 {{ if or .Params.math site.Params.math }}
 {{ $mathjax_config := resources.Get "js/mathjax-config.js" }}
 {{ $mathjax_url := $mathjax_config.RelPermalink }}
-{{/* Always ensure HTTPS when baseurl is HTTPS */}}
-{{ if hasPrefix site.BaseURL "https://" }}
-  {{ if hasPrefix $mathjax_url "http://" }}
-    {{ $mathjax_url = strings.Replace $mathjax_url "http://" "https://" 1 }}
-  {{ else if not (hasPrefix $mathjax_url "http") }}
+{{/* Force HTTPS for all dirkhovy.com URLs */}}
+{{ if hasPrefix $mathjax_url "http://dirkhovy.com" }}
+  {{ $mathjax_url = strings.Replace $mathjax_url "http://dirkhovy.com" "https://dirkhovy.com" 1 }}
+{{ else if hasPrefix $mathjax_url "http://www.dirkhovy.com" }}
+  {{ $mathjax_url = strings.Replace $mathjax_url "http://www.dirkhovy.com" "https://dirkhovy.com" 1 }}
+{{ else if hasPrefix site.BaseURL "https://" }}
+  {{ if not (hasPrefix $mathjax_url "http") }}
     {{ $mathjax_url = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $mathjax_url }}
   {{ end }}
 {{ end }}
@@ -141,12 +143,14 @@
 {{- if (eq (getenv "HUGO_ENV") "production") -}}
   {{- $style = $style | minify | fingerprint "md5" -}}
 {{- end -}}
-{{/* Ensure CSS URL is always HTTPS when baseurl is HTTPS */}}
+{{/* Force HTTPS for all dirkhovy.com URLs */}}
 {{ $css_url := $style.RelPermalink }}
-{{ if hasPrefix site.BaseURL "https://" }}
-  {{ if hasPrefix $css_url "http://" }}
-    {{ $css_url = strings.Replace $css_url "http://" "https://" 1 }}
-  {{ else if not (hasPrefix $css_url "http") }}
+{{ if hasPrefix $css_url "http://dirkhovy.com" }}
+  {{ $css_url = strings.Replace $css_url "http://dirkhovy.com" "https://dirkhovy.com" 1 }}
+{{ else if hasPrefix $css_url "http://www.dirkhovy.com" }}
+  {{ $css_url = strings.Replace $css_url "http://www.dirkhovy.com" "https://dirkhovy.com" 1 }}
+{{ else if hasPrefix site.BaseURL "https://" }}
+  {{ if not (hasPrefix $css_url "http") }}
     {{ $css_url = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $css_url }}
   {{ end }}
 {{ end }}

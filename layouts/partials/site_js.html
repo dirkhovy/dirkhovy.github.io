@@ -153,12 +153,14 @@
     {{ end }}
     {{ $js_bundle := $js_bundle | resources.Concat "js/academic-bundle-pre.js" | minify }}
     {{ $js_bundle := slice $js_bundle_head $js_bundle | resources.Concat "js/academic.min.js" | fingerprint "md5" }}
-    {{/* Ensure JavaScript URL is always HTTPS when baseurl is HTTPS */}}
+    {{/* Force HTTPS for all dirkhovy.com URLs */}}
     {{ $js_url := $js_bundle.RelPermalink }}
-    {{ if hasPrefix site.BaseURL "https://" }}
-      {{ if hasPrefix $js_url "http://" }}
-        {{ $js_url = strings.Replace $js_url "http://" "https://" 1 }}
-      {{ else if not (hasPrefix $js_url "http") }}
+    {{ if hasPrefix $js_url "http://dirkhovy.com" }}
+      {{ $js_url = strings.Replace $js_url "http://dirkhovy.com" "https://dirkhovy.com" 1 }}
+    {{ else if hasPrefix $js_url "http://www.dirkhovy.com" }}
+      {{ $js_url = strings.Replace $js_url "http://www.dirkhovy.com" "https://dirkhovy.com" 1 }}
+    {{ else if hasPrefix site.BaseURL "https://" }}
+      {{ if not (hasPrefix $js_url "http") }}
         {{ $js_url = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $js_url }}
       {{ end }}
     {{ end }}
