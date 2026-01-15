@@ -1,0 +1,44 @@
+// Custom styles that override theme defaults
+// This file is imported after the theme's SCSS, so it can override !important rules
+
+/* Main menu font size - match submenu font size */
+.navbar-light .navbar-nav > .nav-item > .nav-link,
+#navbar-main .navbar-nav > .nav-item > .nav-link {
+  font-size: 1.1rem !important; /* Match submenu font size */
+}
+
+/* Submenu dropdown styling - light grey background, increased font size and spacing */
+.navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu,
+#navbar-main .navbar-nav .nav-item.dropdown .dropdown-menu,
+.navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+  background-color: #f5f5f5 !important; /* Light grey background */
+  font-size: 1.1rem !important; /* Increased font size */
+}
+
+.navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item,
+#navbar-main .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item,
+.navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+  padding: 0.85rem 1.5rem 0.85rem 2.5rem !important; /* Slightly reduced vertical padding, left indentation */
+  line-height: 2.2 !important; /* Increased line spacing */
+  margin: 0.2rem 0 !important; /* Increased margin between items */
+  font-size: 1.1rem !important; /* Increased font size */
+  background-color: #f5f5f5 !important; /* Light grey background for items */
+}
+
+.navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:first-child,
+#navbar-main .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:first-child,
+.navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:first-child {
+  margin-top: 0.4rem !important;
+}
+
+.navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:last-child,
+#navbar-main .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:last-child,
+.navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:last-child {
+  margin-bottom: 0.4rem !important;
+}
+
+.navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover,
+#navbar-main .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #e8e8e8 !important; /* Slightly darker grey on hover */
+}

@@ -6,7 +6,7 @@
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`. debora
 #color_theme = "default"
 # Enable users to switch between day and night mode?
-theme = "minimal_1950s"
+theme = "minimal"
 day_night = true
 
 # Font style.
@@ -100,9 +100,10 @@ contact_links = [
 ############################
 
 # Load CSS and JS plugins
-#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`. debora
+#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = ['debora']
+# Custom styles are now in assets/scss/custom.scss (compiled with theme)
+plugins_css = []
 plugins_js  = []
 
 ############################
