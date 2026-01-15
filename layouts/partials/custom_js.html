@@ -20,7 +20,7 @@
       $(document).on('click', '.js-set-theme-light', function (e) {
         e.preventDefault();
         e.stopPropagation();
-        e.stopImmediatePropagation();
+        // Don't use stopImmediatePropagation() as it breaks Bootstrap dropdowns
         console.log('Light theme clicked - custom handler');
         try {
           if (typeof changeThemeModeClick === 'function') {
@@ -34,13 +34,16 @@
         } catch(err) {
           console.error('Error changing theme:', err);
         }
+        // Close dropdown manually for Firefox compatibility
+        $(this).closest('.dropdown').removeClass('show');
+        $(this).closest('.dropdown-menu').removeClass('show');
         return false;
       });
       
       $(document).on('click', '.js-set-theme-dark', function (e) {
         e.preventDefault();
         e.stopPropagation();
-        e.stopImmediatePropagation();
+        // Don't use stopImmediatePropagation() as it breaks Bootstrap dropdowns
         console.log('Dark theme clicked - custom handler');
         try {
           if (typeof changeThemeModeClick === 'function') {
@@ -54,13 +57,16 @@
         } catch(err) {
           console.error('Error changing theme:', err);
         }
+        // Close dropdown manually for Firefox compatibility
+        $(this).closest('.dropdown').removeClass('show');
+        $(this).closest('.dropdown-menu').removeClass('show');
         return false;
       });
       
       $(document).on('click', '.js-set-theme-auto', function (e) {
         e.preventDefault();
         e.stopPropagation();
-        e.stopImmediatePropagation();
+        // Don't use stopImmediatePropagation() as it breaks Bootstrap dropdowns
         console.log('Auto theme clicked - custom handler');
         try {
           if (typeof changeThemeModeClick === 'function') {
@@ -73,17 +79,25 @@
         } catch(err) {
           console.error('Error changing theme:', err);
         }
+        // Close dropdown manually for Firefox compatibility
+        $(this).closest('.dropdown').removeClass('show');
+        $(this).closest('.dropdown-menu').removeClass('show');
         return false;
       });
       
       console.log('Theme switcher handlers attached');
     }
     
-    // Start initialization
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initThemeSwitcher);
-    } else {
-      initThemeSwitcher();
+    // Start initialization - wait for both DOM and jQuery/Academic JS
+    function startInit() {
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+          setTimeout(initThemeSwitcher, 100);
+        });
+      } else {
+        setTimeout(initThemeSwitcher, 100);
+      }
     }
+    startInit();
   })();
 </script>
