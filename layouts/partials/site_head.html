@@ -126,20 +126,11 @@
 {{- if (eq (getenv "HUGO_ENV") "production") -}}
   {{- $style = $style | minify | fingerprint "md5" -}}
 {{- end -}}
-{{/* Generate CSS URL - use relative for localhost, absolute HTTPS for production */}}
+{{/* Use RelPermalink - with canonifyURLs=true it should use baseurl */}}
+{{/* Just ensure HTTP is converted to HTTPS if baseurl is HTTPS */}}
 {{ $css_url := $style.RelPermalink }}
-{{ if eq hugo.Environment "development" }}
-  {{/* In development, use relative URL for localhost */}}
-  {{ $css_url = $style.RelPermalink }}
-{{ else }}
-  {{/* In production, ensure absolute HTTPS URL */}}
-  {{ if not (hasPrefix $css_url "http") }}
-    {{ $css_url = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $css_url }}
-  {{ end }}
-  {{/* Force HTTPS if somehow HTTP got in */}}
-  {{ if hasPrefix $css_url "http://" }}
-    {{ $css_url = strings.Replace $css_url "http://" "https://" 1 }}
-  {{ end }}
+{{ if and (hasPrefix $css_url "http://") (hasPrefix site.BaseURL "https://") }}
+  {{ $css_url = strings.Replace $css_url "http://" "https://" 1 }}
 {{ end }}
 <link rel="stylesheet" href="{{ $css_url }}">
 
