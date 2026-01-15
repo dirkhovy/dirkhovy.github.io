@@ -19,6 +19,7 @@ a:hover {
 .navbar-light .navbar-nav>.nav-item>.nav-link:active {
   font-weight: 700;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: calc(1rem + 2pt) !important; /* Increase by 2pt */
 }
 
 .navbar-light .navbar-nav > li.nav-item > a.active, 
@@ -39,12 +40,13 @@ a:hover {
   border-bottom: 2px solid #E13D3D;
 }
 
-/* Submenu spacing - increased line height and padding */
+/* Submenu spacing - increased line height, padding, font size, and indentation */
 .navbar .dropdown-menu .dropdown-item,
 #navbar-main .dropdown-menu .dropdown-item {
-  padding: 0.75rem 1.5rem !important; /* Increased vertical padding */
+  padding: 0.75rem 1.5rem 0.75rem 2.5rem !important; /* Increased vertical padding and left indentation */
   line-height: 2 !important; /* Increased line spacing */
   margin: 0.1rem 0 !important; /* Add margin between items */
+  font-size: calc(1.05rem + 2pt) !important; /* Larger font size + 2pt */
 }
 
 .navbar .dropdown-menu .dropdown-item:first-child,

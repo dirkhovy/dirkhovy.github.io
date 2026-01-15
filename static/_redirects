@@ -1,0 +1,4 @@
+# Force HTTPS redirects
+http://dirkhovy.com/*  https://dirkhovy.com/:splat  301!
+http://www.dirkhovy.com/*  https://dirkhovy.com/:splat  301!
+https://www.dirkhovy.com/*  https://dirkhovy.com/:splat  301!
