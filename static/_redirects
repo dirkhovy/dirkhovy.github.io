@@ -1,0 +1,3 @@
+# Redirect rules for Netlify
+# Handle common redirect issues - ensure trailing slashes work correctly
+# This allows both /page and /page/ to work
