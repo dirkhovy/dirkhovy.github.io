@@ -10,7 +10,7 @@
 
 [[main]]
   name = "Home"
-  url = "/"# do not change: makes no sense, but breaks everything
+  url = "/"  # Home page link
   weight = 10
 
 [[main]]
@@ -43,8 +43,8 @@
   weight = 60
 
 [[main]]
- name = "Fun"
- weight = 50
+  name = "Fun"
+  weight = 50
   [[main]]
     name = "Blog"
     url = "/post"
@@ -55,8 +55,6 @@
     url = "/items"
     parent = "Fun"
     weight = 200
-
-
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

@@ -3,14 +3,14 @@
 # more docu: https://pascalmichaillat.org/d5/
 
 # Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`. debora
+#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
 #color_theme = "default"
 # Enable users to switch between day and night mode?
 theme = "minimal"
 day_night = true
 
 # Font style.
-#   Choose from `default`, `classic`, or `playfair`. debora
+#   Choose from `default`, `classic`, or `playfair`.
 font = "minimal"  # Uses Roboto (sans-serif) for navigation
 font_size = "M"
 
