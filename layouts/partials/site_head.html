@@ -1,5 +1,11 @@
-{{/* Override theme's site_head.html to ensure HTTPS URLs */}}
-{{ $scr := .Scratch }}
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic {{ site.Data.academic.version }}">
+
+  {{ $scr := .Scratch }}
 
 {{/* Attempt to load superuser. */}}
 {{ $superuser_name := "" }}
@@ -126,11 +132,16 @@
 {{- if (eq (getenv "HUGO_ENV") "production") -}}
   {{- $style = $style | minify | fingerprint "md5" -}}
 {{- end -}}
-{{/* Use RelPermalink - with canonifyURLs=true it should use baseurl */}}
-{{/* Just ensure HTTP is converted to HTTPS if baseurl is HTTPS */}}
+{{/* Ensure CSS URL is always HTTPS when baseurl is HTTPS */}}
 {{ $css_url := $style.RelPermalink }}
-{{ if and (hasPrefix $css_url "http://") (hasPrefix site.BaseURL "https://") }}
-  {{ $css_url = strings.Replace $css_url "http://" "https://" 1 }}
+{{ if hasPrefix site.BaseURL "https://" }}
+  {{/* If URL is relative, make it absolute with HTTPS baseurl */}}
+  {{ if not (hasPrefix $css_url "http") }}
+    {{ $css_url = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $css_url }}
+  {{/* If URL is HTTP, convert to HTTPS */}}
+  {{ else if hasPrefix $css_url "http://" }}
+    {{ $css_url = strings.Replace $css_url "http://" "https://" 1 }}
+  {{ end }}
 {{ end }}
 <link rel="stylesheet" href="{{ $css_url }}">
 
@@ -218,3 +229,7 @@
 {{ end }}
 
 {{ partial "custom_head" . }}
+
+  <title>{{ if not .IsHome }}{{ .Params.name | default .Title }} | {{ end }}{{ site.Title }}</title>
+
+</head>
