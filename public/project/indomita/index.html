@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Innovative Demographically-aware Hate Speech Detection in Online Media in Italian">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dirkhovy.com/project/indomita/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#EF525B">
+  
+
+  
+  
+  
+  <script src="../../js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/paraiso-light.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/paraiso-light.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="../../css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="../../index.webmanifest">
+  <link rel="icon" type="image/png" href="../../images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://dirkhovy.com/project/indomita/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Dirk Hovy">
+  <meta property="og:url" content="https://dirkhovy.com/project/indomita/">
+  <meta property="og:title" content="INDOMITA | Dirk Hovy">
+  <meta property="og:description" content="Innovative Demographically-aware Hate Speech Detection in Online Media in Italian"><meta property="og:image" content="https://dirkhovy.com/project/indomita/featured.jpg">
+  <meta property="twitter:image" content="https://dirkhovy.com/project/indomita/featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2023-04-13T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2023-04-13T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dirkhovy.com/project/indomita/"
+  },
+  "headline": "INDOMITA",
+  
+  "image": [
+    "https://dirkhovy.com/project/indomita/featured.jpg"
+  ],
+  
+  "datePublished": "2023-04-13T00:00:00Z",
+  "dateModified": "2023-04-13T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Authors"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dirk Hovy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Innovative Demographically-aware Hate Speech Detection in Online Media in Italian"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>INDOMITA | Dirk Hovy</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="../../">Dirk Hovy</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="../../"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Research</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../publication"><span>Publications</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../projects"><span>Projects</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../talk"><span>Talks</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="../../cv"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Fun</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../post"><span>Blog</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../items"><span>Leatherwork</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="../../contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>INDOMITA</h1>
+
+  
+
+  
+
+
+
+<meta content="2023-04-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-04-13 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Apr 13, 2023</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="../../categories/nlp/">NLP</a>, <a href="../../categories/hate-speech/">hate speech</a></span>
+  
+
+  
+    
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
+  <div style="position: relative">
+    <img src="../../project/indomita/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_121277_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Photo by Sebastian Voortman: 
+<a href="https://www.pexels.com/photo/woman-jumping-wearing-green-backpack-214574/" target="_blank" rel="noopener">https://www.pexels.com/photo/woman-jumping-wearing-green-backpack-214574/</a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Hate speech is one of the most central problems of online life, with real-life consequences: various hate crimes started as online hate.
+1 in 4 users have been harassed online (Pew Research), 63% of the targets are women (Cox commission). The pandemic-related increase of online activity has only intensified this problem: over 500 million messages are sent each day.
+To address this problem, content providers and policymakers need automated assistance in spotting and addressing hateful comments. INDOMITA will provide those methods.</p>
+<p>But hate speech is complex. What is considered offensive varies by social norms and user demographics. &ldquo;Yo, a**hole!&rdquo; is acceptable among friends, but problematic with strangers.
+But current hate speech detection only uses the words in a message to determine whether it is hate speech or not. It does not consider who says those words and to whom, potentially missing subtle forms of hate speech and mislabeling harmless interactions due to overreliance on keywords. This overly simplified approach is a significant limitation. Our user-based approach will address that.</p>
+<p>But &ldquo;better&rdquo; detection is subjective: people have very different thresholds for what they find offensive. Current evaluation metrics do not allow for such nuance. Any tool that improves the overall detection rate will be judged sufficient. But a tool that works great for most users, but fails for some other groups might achieve good performance. It still fails in the task it was designed to do. Our fairness metrics will correct this.</p>
+<p>But detection alone does not solve the problem. Interventions like counterspeech or education have a lasting impact on abusive users. It can be enough to alert them to the hurtful nature of their message. At other times, they will only respond if someone they perceive as authoritative engages in a discussion. This decision requires an understanding of the abusive user&rsquo;s social context. Our user-based counterspeech approach facilitates this.</p>
+<p>Our novel, user-centered approach will address hatespeech in three ways:</p>
+<ol>
+<li>comprehensively modeling a complex issue to improve detection across input formats (text, images, and video), by incorporating socio-demographic context into the model.</li>
+<li>developing methods to automate counterspeech and to address abusive users effectively.</li>
+<li>developing evaluation metrics that assess fairness and performance and account for the subjective nature of hate speech.</li>
+</ol>
+<p>In sum, our user focus will revolutionize existing research on hate speech detection, both in Italian and other languages, to give authorities and media providers better ways to assess content for immediate countermeasures. It will allow us to bridge language differences more easily than purely text-based methods, as we capture socio-behavioral patterns that generalize across languages.
+It will generate revolutionary insights of the complex dynamics between online actors and the generation of online hate.</p>
+<p>INDOMITA is supported by a MUR FARE 2020 initiative under grant agreement Prot. R20YSMBZ8S.</p>
+
+    </div>
+
+    
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="../../tags/demographic/">demographic</a>
+  
+  <a class="badge badge-light" href="../../tags/social-media/">social media</a>
+  
+  <a class="badge badge-light" href="../../tags/nlp/">NLP</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="../../project/mentalism/">MENTALISM</a></li>
+      
+      <li><a href="../../project/integrator/">INTEGRATOR</a></li>
+      
+      <li><a href="../../publication/2023-know-your-audience-education/">Know Your Audience: Do LLMs Adapt to Different Age and Education Levels?</a></li>
+      
+      <li><a href="../../publication/2023-beyond-digital-echo-chambers-role-viewpoint-diversity-political-discussion/">Beyond Digital &#39;Echo Chambers&#39;: The Role of Viewpoint Diversity in Political Discussion</a></li>
+      
+      <li><a href="../../publication/2022-bridging_fairness_and_environmental_sustainability_in_natural_language_processing/">Bridging Fairness and Environmental Sustainability in Natural Language Processing</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2025-principled_personas/" >Principled Personas: Defining and Measuring the Intended Effects of Persona Prompting on Task Performance</a>
+    </h3>
+
+    <div class="article-style">
+      November, 2025
+    </div>
+
+    
+    <div class="article-style">
+      Expert persona prompting—assigning roles such as expert in math to language models—is widely used for task improvement. However, prior …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/pedro-henrique-luz-de-araujo/">Pedro Henrique Luz de Araujo</a></span>, <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/benjamin-roth/">Benjamin Roth</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2025.emnlp-main.1364/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-principled_personas/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2025-principled_personas/" >
+      <img src="../../publication/2025-principled_personas/featured_hu789bdf37d93c4778ae745ecf883f2581_334045_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2025-issuebench/" >IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance</a>
+    </h3>
+
+    <div class="article-style">
+      September, 2025
+    </div>
+
+    
+    <div class="article-style">
+      Large language models (LLMs) are helping millions of users write texts about diverse issues, and in doing so expose users to different …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/musashi-hinck/">Musashi Hinck</a></span>, <span><a href="../../authors/valentin-hofmann/">Valentin Hofmann</a></span>, <span><a href="../../authors/kobi-hackenburg/">Kobi Hackenburg</a></span>, <span><a href="../../authors/valentina-pyatkin/">Valentina Pyatkin</a></span>, <span><a href="../../authors/faeze-brahman/">Faeze Brahman</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2502.08395" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-issuebench/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/paul-rottger/issuebench" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://huggingface.co/datasets/Paul/IssueBench" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2025-issuebench/" >
+      <img src="../../publication/2025-issuebench/featured_hue1495e39b2a3a4f789dd6fd4dd296cc9_117264_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/" >Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals&#39; Subjective Text Perceptions</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2025
+    </div>
+
+    
+    <div class="article-style">
+      People naturally vary in their annotations for subjective questions and some of this variation is thought to be due to the …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/matthias-orlikowski/">Matthias Orlikowski</a></span>, <span><a href="../../authors/jiaxin-pei/">Jiaxin Pei</a></span>, <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/philipp-cimiano/">Philipp Cimiano</a></span>, <span><a href="../../authors/david-jurgens/">David Jurgens</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2025.acl-long.104.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/" >
+      <img src="../../publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/featured_hu745c2901a21f5f28a040e8e8dc41e8d7_110895_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-compromesso/" >Compromesso! Italian Many-Shot Jailbreaks Undermine the Safety of Large Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      August, 2024
+    </div>
+
+    
+    <div class="article-style">
+      As diverse linguistic communities and users adopt large language models (LLMs), assessing their safety across languages becomes …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/fabio-pernisi/">Fabio Pernisi</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.acl-srw.29/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-compromesso/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-compromesso/" >
+      <img src="../../publication/2024-compromesso/featured_hu8829296ab17f379832fbffc24a024540_467643_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-myanswerisc/" >My Answer is C: First-Token Probabilities Do Not Match Text Answers in Instruction-Tuned Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      August, 2024
+    </div>
+
+    
+    <div class="article-style">
+      The open-ended nature of language generation makes the evaluation of autoregressive large language models (LLMs) challenging. One …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/xinpeng-wang/">Xinpeng Wang</a></span>, <span><a href="../../authors/bolei-ma/">Bolei Ma</a></span>, <span><a href="../../authors/chengzhi-hu/">Chengzhi Hu</a></span>, <span><a href="../../authors/leon-weber-genzel/">Leon Weber-Genzel</a></span>, <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/frauke-kreuter/">Frauke Kreuter</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/barbara-plank/">Barbara Plank</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.findings-acl.441/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-myanswerisc/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-myanswerisc/" >
+      <img src="../../publication/2024-myanswerisc/featured_hu4db66ba761f1ec3d5f41c8f44e8469cd_353367_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-politicalcompass/" >Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      August, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Much recent work seeks to evaluate values and opinions in large language models (LLMs) using multiple-choice surveys and …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/valentin-hofmann/">Valentin Hofmann</a></span>, <span><a href="../../authors/valentina-pyatkin/">Valentina Pyatkin</a></span>, <span><a href="../../authors/musashi-hinck/">Musashi Hinck</a></span>, <span><a href="../../authors/hannah-rose-kirk/">Hannah Rose Kirk</a></span>, <span><a href="../../authors/hinrich-schuetze/">Hinrich Schuetze</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.acl-long.816/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-politicalcompass/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-politicalcompass/" >
+      <img src="../../publication/2024-politicalcompass/featured_hu7fe098718e53309056c6c72945090618_585023_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-xstest/" >XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Without proper safeguards, large language models will readily follow malicious instructions and generate toxic content. This risk …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/hannah-rose-kirk/">Hannah Rose Kirk</a></span>, <span><a href="../../authors/bertie-vidgen/">Bertie Vidgen</a></span>, <span><a href="../../authors/giuseppe-attanasio/">Giuseppe Attanasio</a></span>, <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.naacl-long.301/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-xstest/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-xstest/" >
+      <img src="../../publication/2024-xstest/featured_hua6d6cae09427ade9632b5b8ea33f9248_126590_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-safetyprompts/" >SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety </a>
+    </h3>
+
+    <div class="article-style">
+      April, 2024
+    </div>
+
+    
+    <div class="article-style">
+      The last two years have seen a rapid growth in concerns around the safety of large language models (LLMs). Researchers and …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/fabio-pernisi/">Fabio Pernisi</a></span>, <span><a href="../../authors/bertie-vidgen/">Bertie Vidgen</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2404.05399" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-safetyprompts/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-safetyprompts/" >
+      <img src="../../publication/2024-safetyprompts/featured_hu1eb7edb5f624552609b32a848288a2e8_416757_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="../../js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/css.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/bash.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/javascript.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/markdown.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="../../js/academic.min.5cbe51271615d69caead0155ce0cb8ce.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="../../license/">LICENSE: CC-BY-SA <br> <i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i> </a><br>
+  </p>
+  
+
+  <p class="powered-by">
+    ©  Dirk Hovy, 2026 &middot; 
+
+    Made with <i class="far fa-heart" style="color:#E13D3D"></i> and the 
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>. Inspired by <a href="https://alison.rbind.io" target="_blank" rel="noopener">Alison Hill's website</a>
+
+	<a href="https://github.com/rbind/apreshill" target="_blank" rel="noopener"><i class="fas fa-code-branch" style="color:#E13D3D"></i></a>
+	
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

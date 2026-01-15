@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>demographic | Dirk Hovy</title>
+    <link>https://dirkhovy.com/categories/demographic/</link>
+      <atom:link href="https://dirkhovy.com/categories/demographic/index.xml" rel="self" type="application/rss+xml" />
+    <description>demographic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Mon, 27 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>demographic</title>
+      <link>https://dirkhovy.com/categories/demographic/</link>
+    </image>
+    
+    <item>
+      <title>INTEGRATOR</title>
+      <link>https://dirkhovy.com/project/integrator/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/project/integrator/</guid>
+      <description>&lt;p&gt;Dirk Hovy, scientific director of DMI and Professor of computer science, has won an &lt;strong&gt;ERC starting grant of 1.5mln euros&lt;/strong&gt;. His project INTEGRATOR, funded under grant agreement 949944, &lt;strong&gt;introduces demographic factors into language processing systems&lt;/strong&gt;, which will improve algorithmic performance, avoid racism, sexism, and ageism, and open up new applications.
+What if I wrote that “winning an ERC Grant, Dirk Hovy got a sick result?”. Those familiar with the use of “sick” as a synonym for “great” or “awesome” among teenagers would think that Bocconi Knowledge hired a very young writer (or someone posing as such). The rest would think I went crazy. Current artificial intelligence-based language systems wouldn’t have a clue. “Natural language processing (NLP) technologies,” Prof. Hovy says, “fail to account for demographics both in understanding language and in generating it. And this failure prevents us from reaching human-like performance. It limits possible future applications and it introduces systematic bias against underrepresented demographic groups”.&lt;/p&gt;
+&lt;p&gt;🗞️🗞️ Related articles featured in 
+&lt;a href=&#34;https://corriereinnovazione.corriere.it/2021/03/26/professore-che-insegna-algoritmi-linguaggio-senza-pregiudizi-418efdac-8e28-11eb-8542-ee1d410d331e.shtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Corriere Innovazione&lt;/a&gt; and 
+&lt;a href=&#34;https://www.bidsa.unibocconi.eu/wps/wcm/connect/Site/Bidsa/Home/News_Events/ERC&amp;#43;Dirk&amp;#43;Hovy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bocconi News&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/9NLBOaAyrVg&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

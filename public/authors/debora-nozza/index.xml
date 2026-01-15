@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debora Nozza | Dirk Hovy</title>
+    <link>https://dirkhovy.com/authors/debora-nozza/</link>
+      <atom:link href="https://dirkhovy.com/authors/debora-nozza/index.xml" rel="self" type="application/rss+xml" />
+    <description>Debora Nozza</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Debora Nozza</title>
+      <link>https://dirkhovy.com/authors/debora-nozza/</link>
+    </image>
+    
+    <item>
+      <title>Biased Tales: Cultural and Topic Bias in Generating Children’s Stories?</title>
+      <link>https://dirkhovy.com/publication/2025-biased-tales/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-biased-tales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wisdom of Instruction-Tuned Language Model Crowds. Exploring Model Label Variation</title>
+      <link>https://dirkhovy.com/publication/2023-label-variation-llms/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-label-variation-llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MilaNLP at SemEval-2023 Task 10: Ensembling Domain-Adapted and Regularized Pretrained Language Models for Robust Sexism Detection</title>
+      <link>https://dirkhovy.com/publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Respectful or Toxic? Using Zero-Shot Learning with Language Models to Detect Hate Speech</title>
+      <link>https://dirkhovy.com/publication/2023-zero-shot-prompting-hate-speech/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-zero-shot-prompting-hate-speech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The State of Profanity Obfuscation in Natural Language Processing Scientific Publications</title>
+      <link>https://dirkhovy.com/publication/2023-prof-profanity-obfuscation-nlp/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-prof-profanity-obfuscation-nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What about &#39;&#39;em&#39;&#39;? How Commercial Machine Translation Fails to Handle (Neo-)Pronouns</title>
+      <link>https://dirkhovy.com/publication/2023-commercial-machine-translation-fail-neopronouns/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-commercial-machine-translation-fail-neopronouns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What about &#39;&#39;em&#39;&#39;? How Commercial Machine Translation Fails to Handle (Neo-)Pronouns</title>
+      <link>https://dirkhovy.com/publication/2023-interpretability-for-fairer-machine-translation/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-interpretability-for-fairer-machine-translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Efficient Strategies for Expanding Hate Speech Detection into Under-Resourced Languages</title>
+      <link>https://dirkhovy.com/publication/2022-strategies-hate-speech-detection-under-resourced-languages/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-strategies-hate-speech-detection-under-resourced-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is It Worth the (Environmental) Cost? Limited Evidence for the Benefits of Diachronic Continuous Training</title>
+      <link>https://dirkhovy.com/publication/2022-limitation-diachronic-continuous-training/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-limitation-diachronic-continuous-training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language Invariant Properties in Natural Language Processing</title>
+      <link>https://dirkhovy.com/publication/2022-language-invariant-properties-nlp/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-language-invariant-properties-nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benchmarking Post-Hoc Interpretability Approaches for Transformer-based Misogyny Detection</title>
+      <link>https://dirkhovy.com/publication/2022-interpretability-transformer-mysogyny-detection/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-interpretability-transformer-mysogyny-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Harmful Sentence Completion in Language Models for LGBTQIA&#43; Individuals</title>
+      <link>https://dirkhovy.com/publication/2022-honest-hurtful-language-model-lgbtqia&#43;/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-honest-hurtful-language-model-lgbtqia&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pipelines for Social Bias Testing of Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2022-pipelines-social-bias-testing-language-models/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-pipelines-social-bias-testing-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XLM-EMO: Multilingual Emotion Prediction in Social Media Text</title>
+      <link>https://dirkhovy.com/publication/2022-xlmemo-multilingual-emotion-prediction/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-xlmemo-multilingual-emotion-prediction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entropy-based Attention Regularization Frees Unintended Bias Mitigation from Lists</title>
+      <link>https://dirkhovy.com/publication/2022-entropy-attention-regularization-bias/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-entropy-attention-regularization-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HONEST: Measuring Hurtful Sentence Completion in Language Models</title>
+      <link>https://dirkhovy.com/publication/2021-honest-hurtful-language-model/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-honest-hurtful-language-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FEEL-IT: Emotion and Sentiment Classification for the Italian Language</title>
+      <link>https://dirkhovy.com/publication/2021-feelit-italian-sentiment-emotion/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-feelit-italian-sentiment-emotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MilaNLP @ WASSA: Does BERT Feel Sad When You Cry?</title>
+      <link>https://dirkhovy.com/publication/2021-wassa-emotion-multitask/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-wassa-emotion-multitask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-lingual Contextualized Topic Models with Zero-shot Learning</title>
+      <link>https://dirkhovy.com/publication/2021-crosslingual-topic-model/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-crosslingual-topic-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What the [MASK]? Making Sense of Language-Specific BERT Models</title>
+      <link>https://dirkhovy.com/publication/2020-bertlang-language-specific-bert/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020-bertlang-language-specific-bert/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

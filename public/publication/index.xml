@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Dirk Hovy</title>
+    <link>https://dirkhovy.com/publication/</link>
+      <atom:link href="https://dirkhovy.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://dirkhovy.com/publication/</link>
+    </image>
+    
+    <item>
+      <title>Consistency is Key: Disentangling Label Variation in Natural Language Processing with Intra-Annotator Agreement</title>
+      <link>https://dirkhovy.com/publication/2025-consistency-key-disentangling-label-variation-nlp-intra-annotator-agreement/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-consistency-key-disentangling-label-variation-nlp-intra-annotator-agreement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>No for Some, Yes for Others: Persona Prompts and Other Sources of False Refusal in Language Models</title>
+      <link>https://dirkhovy.com/publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Principled Personas: Defining and Measuring the Intended Effects of Persona Prompting on Task Performance</title>
+      <link>https://dirkhovy.com/publication/2025-principled_personas/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-principled_personas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Co-DETECT: Collaborative Discovery of Edge Cases in Text Classification?</title>
+      <link>https://dirkhovy.com/publication/2025-co-detect/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-co-detect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biased Tales: Cultural and Topic Bias in Generating Children’s Stories?</title>
+      <link>https://dirkhovy.com/publication/2025-biased-tales/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-biased-tales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance</title>
+      <link>https://dirkhovy.com/publication/2025-issuebench/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-issuebench/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The AI Gap: How Socioeconomic Status Affects Language Technology Interactions</title>
+      <link>https://dirkhovy.com/publication/2025-ses-survey/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-ses-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals&#39; Subjective Text Perceptions</title>
+      <link>https://dirkhovy.com/publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0100</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Educators&#39; Perceptions of Large Language Models as Tutors: Comparing Human and AI Tutors in a Blind Text-only Setting</title>
+      <link>https://dirkhovy.com/publication/2025-educators-perceptions-large-language-models-tutors-comparing-human-ai-tutors-blind-text-only-setting/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0100</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-educators-perceptions-large-language-models-tutors-comparing-human-ai-tutors-blind-text-only-setting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Socially Aware Language Technologies: Perspectives and Practices</title>
+      <link>https://dirkhovy.com/publication/2025-socially-aware-language-technologies-perspectives-practices/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0100</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-socially-aware-language-technologies-perspectives-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compromesso! Italian Many-Shot Jailbreaks Undermine the Safety of Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-compromesso/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-compromesso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Answer is C: First-Token Probabilities Do Not Match Text Answers in Instruction-Tuned Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-myanswerisc/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-myanswerisc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-politicalcompass/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-politicalcompass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-xstest/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-xstest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DADIT: A Dataset for Demographic Classification of Italian Twitter Users and a Comparison of Prediction Methods</title>
+      <link>https://dirkhovy.com/publication/2024-dadit/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-dadit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Flesch-Kincaid: Prompt-based Metrics Improve Difficulty Classification of Educational Texts</title>
+      <link>https://dirkhovy.com/publication/2024-difficulty-classification/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-difficulty-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety </title>
+      <link>https://dirkhovy.com/publication/2024-safetyprompts/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-safetyprompts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angry Men, Sad Women: Large Language Models Reflect Gendered Stereotypes in Emotion Attribution</title>
+      <link>https://dirkhovy.com/publication/2024-emotion-gender-stereotypes/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-emotion-gender-stereotypes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversations as a Source for Teaching Scientific Concepts at Different Education Levels</title>
+      <link>https://dirkhovy.com/publication/2024-conversations-data/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-conversations-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emotion Analysis in NLP: Trends, Gaps and Roadmap for Future Directions</title>
+      <link>https://dirkhovy.com/publication/2024-emotion-analysis-survey/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-emotion-analysis-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classist Tools: Social Class Correlates with Performance in NLP</title>
+      <link>https://dirkhovy.com/publication/2024-socialclass-experiments/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-socialclass-experiments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impoverished Language Technology: The Lack of (Social) Class in NLP</title>
+      <link>https://dirkhovy.com/publication/2024-socialclass-survey/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-socialclass-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wisdom of Instruction-Tuned Language Model Crowds. Exploring Model Label Variation</title>
+      <link>https://dirkhovy.com/publication/2023-label-variation-llms/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-label-variation-llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MilaNLP at SemEval-2023 Task 10: Ensembling Domain-Adapted and Regularized Pretrained Language Models for Robust Sexism Detection</title>
+      <link>https://dirkhovy.com/publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Respectful or Toxic? Using Zero-Shot Learning with Language Models to Detect Hate Speech</title>
+      <link>https://dirkhovy.com/publication/2023-zero-shot-prompting-hate-speech/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-zero-shot-prompting-hate-speech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal and Second Language Influence on Intra-Annotator Agreement and Stability in Hate Speech Labelling</title>
+      <link>https://dirkhovy.com/publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Ecological Fallacy in Annotation: Modeling Human Label Variation goes beyond Sociodemographics</title>
+      <link>https://dirkhovy.com/publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The State of Profanity Obfuscation in Natural Language Processing Scientific Publications</title>
+      <link>https://dirkhovy.com/publication/2023-prof-profanity-obfuscation-nlp/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-prof-profanity-obfuscation-nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What about &#39;&#39;em&#39;&#39;? How Commercial Machine Translation Fails to Handle (Neo-)Pronouns</title>
+      <link>https://dirkhovy.com/publication/2023-commercial-machine-translation-fail-neopronouns/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-commercial-machine-translation-fail-neopronouns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What about &#39;&#39;em&#39;&#39;? How Commercial Machine Translation Fails to Handle (Neo-)Pronouns</title>
+      <link>https://dirkhovy.com/publication/2023-interpretability-for-fairer-machine-translation/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-interpretability-for-fairer-machine-translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Social Interactions to Detect Misinformation on Social Media</title>
+      <link>https://dirkhovy.com/publication/2023-leveraging-social-interactions-detect-misinformation-social-media/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-leveraging-social-interactions-detect-misinformation-social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the First Workshop on Cross-Cultural Considerations in NLP (C3NLP)</title>
+      <link>https://dirkhovy.com/publication/2023-proceedings-c3nlp/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-proceedings-c3nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Demographic Factors Improve Text Classification? Revisiting Demographic Adaptation in the Age of Transformers</title>
+      <link>https://dirkhovy.com/publication/2023-can-demographic-factors-improve-text-classification/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-can-demographic-factors-improve-text-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Know Your Audience: Do LLMs Adapt to Different Age and Education Levels?</title>
+      <link>https://dirkhovy.com/publication/2023-know-your-audience-education/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-know-your-audience-education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Digital &#39;Echo Chambers&#39;: The Role of Viewpoint Diversity in Political Discussion</title>
+      <link>https://dirkhovy.com/publication/2023-beyond-digital-echo-chambers-role-viewpoint-diversity-political-discussion/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-beyond-digital-echo-chambers-role-viewpoint-diversity-political-discussion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Viewpoint: Artificial Intelligence Accidents Waiting to Happen?</title>
+      <link>https://dirkhovy.com/publication/2023-ai-normal-accidents-waiting-happen/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-ai-normal-accidents-waiting-happen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>It&#39;s Not Just Hate: A Multi-Dimensional Perspective on Detecting Harmful Speech Online</title>
+      <link>https://dirkhovy.com/publication/2022-not_just_hate/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-not_just_hate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter-Demographer: A Flow-based Tool to Enrich Twitter Data</title>
+      <link>https://dirkhovy.com/publication/2022-twitter_demographer/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-twitter_demographer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging Fairness and Environmental Sustainability in Natural Language Processing</title>
+      <link>https://dirkhovy.com/publication/2022-bridging_fairness_and_environmental_sustainability_in_natural_language_processing/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-bridging_fairness_and_environmental_sustainability_in_natural_language_processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SocioProbe: What, When, and Where Language Models Learn about Sociodemographics</title>
+      <link>https://dirkhovy.com/publication/2022-socioprobe_what_when_where_language_models_learn_about_sociodemographics/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-socioprobe_what_when_where_language_models_learn_about_sociodemographics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Efficient Strategies for Expanding Hate Speech Detection into Under-Resourced Languages</title>
+      <link>https://dirkhovy.com/publication/2022-strategies-hate-speech-detection-under-resourced-languages/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-strategies-hate-speech-detection-under-resourced-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is It Worth the (Environmental) Cost? Limited Evidence for the Benefits of Diachronic Continuous Training</title>
+      <link>https://dirkhovy.com/publication/2022-limitation-diachronic-continuous-training/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-limitation-diachronic-continuous-training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to the Modern World of Pronouns: Identity-Inclusive Natural Language Processing beyond Gender</title>
+      <link>https://dirkhovy.com/publication/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guiding the Release of Safer E2E Conversational AI through Value Sensitive Design</title>
+      <link>https://dirkhovy.com/publication/2022-guiding_release_safer_e2e_conversational_ai_through_value_sensitive_design/</link>
+      <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-guiding_release_safer_e2e_conversational_ai_through_value_sensitive_design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hard and Soft Evaluation of NLP models with BOOtSTrap SAmpling - BooStSa</title>
+      <link>https://dirkhovy.com/publication/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language Invariant Properties in Natural Language Processing</title>
+      <link>https://dirkhovy.com/publication/2022-language-invariant-properties-nlp/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-language-invariant-properties-nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benchmarking Post-Hoc Interpretability Approaches for Transformer-based Misogyny Detection</title>
+      <link>https://dirkhovy.com/publication/2022-interpretability-transformer-mysogyny-detection/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-interpretability-transformer-mysogyny-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Harmful Sentence Completion in Language Models for LGBTQIA&#43; Individuals</title>
+      <link>https://dirkhovy.com/publication/2022-honest-hurtful-language-model-lgbtqia&#43;/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-honest-hurtful-language-model-lgbtqia&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pipelines for Social Bias Testing of Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2022-pipelines-social-bias-testing-language-models/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-pipelines-social-bias-testing-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two Contrasting Data Annotation Paradigms for Subjective NLP Tasks</title>
+      <link>https://dirkhovy.com/publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XLM-EMO: Multilingual Emotion Prediction in Social Media Text</title>
+      <link>https://dirkhovy.com/publication/2022-xlmemo-multilingual-emotion-prediction/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-xlmemo-multilingual-emotion-prediction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entropy-based Attention Regularization Frees Unintended Bias Mitigation from Lists</title>
+      <link>https://dirkhovy.com/publication/2022-entropy-attention-regularization-bias/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-entropy-attention-regularization-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SAFETYKIT: First Aid for Measuring Safety in Open-domain Conversational Systems</title>
+      <link>https://dirkhovy.com/publication/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Analysis in Python for Social Scientists – Prediction and Classification</title>
+      <link>https://dirkhovy.com/publication/2022_nlpss2/</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022_nlpss2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning from Disagreement: A Survey</title>
+      <link>https://dirkhovy.com/publication/2021-learning_from_disagreement_survey/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-learning_from_disagreement_survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Five sources of bias in natural language processing</title>
+      <link>https://dirkhovy.com/publication/2021-five-sources-bias/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-five-sources-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Gap between Adoption and Understanding in NLP</title>
+      <link>https://dirkhovy.com/publication/2021-gap-between-understanding-adoption/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-gap-between-understanding-adoption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pre-training is a Hot Topic: Contextualized Document Embeddings Improve Topic Coherence</title>
+      <link>https://dirkhovy.com/publication/2021-contextualized-improve-topic-models-coherence/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-contextualized-improve-topic-models-coherence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#39;We will Reduce Taxes&#39; - Identifying Election Pledges with Language Models</title>
+      <link>https://dirkhovy.com/publication/2021-aclfindings-mimac/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-aclfindings-mimac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HONEST: Measuring Hurtful Sentence Completion in Language Models</title>
+      <link>https://dirkhovy.com/publication/2021-honest-hurtful-language-model/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-honest-hurtful-language-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Importance of Modeling Social Factors of Language: Theory and Practice</title>
+      <link>https://dirkhovy.com/publication/2021-importance-modeling-social-factors-language/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-importance-modeling-social-factors-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FEEL-IT: Emotion and Sentiment Classification for the Italian Language</title>
+      <link>https://dirkhovy.com/publication/2021-feelit-italian-sentiment-emotion/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-feelit-italian-sentiment-emotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MilaNLP @ WASSA: Does BERT Feel Sad When You Cry?</title>
+      <link>https://dirkhovy.com/publication/2021-wassa-emotion-multitask/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-wassa-emotion-multitask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Black &amp; White: Leveraging Annotator Disagreement via Soft-Label Multi-Task Learning</title>
+      <link>https://dirkhovy.com/publication/2021-naacl-softlabels/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-naacl-softlabels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Universal Joy A Data Set and Results for Classifying Emotions Across Languages</title>
+      <link>https://dirkhovy.com/publication/2021-universal-joy/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-universal-joy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BERTective: Language Models and Contextual Information for Deception Detection</title>
+      <link>https://dirkhovy.com/publication/2021_eacl_decour/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021_eacl_decour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-lingual Contextualized Topic Models with Zero-shot Learning</title>
+      <link>https://dirkhovy.com/publication/2021-crosslingual-topic-model/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-crosslingual-topic-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Analysis in Python for Social Scientists – Discovery and Exploration</title>
+      <link>https://dirkhovy.com/publication/2020_nlpss/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_nlpss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“You Sound Just Like Your Father” Commercial Machine Translation Systems Include Stylistic Biases</title>
+      <link>https://dirkhovy.com/publication/2020_mt/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_mt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Biases in Natural Language Processing Models: A Conceptual Framework and Overview</title>
+      <link>https://dirkhovy.com/publication/2020_bias/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualizing Regional Language Variation Across Europe on Twitter</title>
+      <link>https://dirkhovy.com/publication/2020_eutwitter/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_eutwitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helpful or Hierarchical? Predicting the Communicative Strategies of Chat Participants, and their Impact on Success</title>
+      <link>https://dirkhovy.com/publication/2020_helpful/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_helpful/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What the [MASK]? Making Sense of Language-Specific BERT Models</title>
+      <link>https://dirkhovy.com/publication/2020-bertlang-language-specific-bert/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020-bertlang-language-specific-bert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Case for Soft Loss Functions</title>
+      <link>https://dirkhovy.com/publication/2020_aaai_softlabels/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_aaai_softlabels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dense Node Representation for Geolocation</title>
+      <link>https://dirkhovy.com/publication/2019_m2v/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019_m2v/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geolocation with Attention-Based Multitask Learning Models</title>
+      <link>https://dirkhovy.com/publication/2019_geo_mtl/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019_geo_mtl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hey Siri. Ok Google. Alexa: A topic modeling of user reviews for smart speakers</title>
+      <link>https://dirkhovy.com/publication/2019_siri/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019_siri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying Linguistic Areas for Geolocation</title>
+      <link>https://dirkhovy.com/publication/2019_p2c/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019_p2c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Women’s Syntactic Resilience and Men’s Grammatical Luck: Gender-Bias in Part-of-Speech Tagging and Dependency Parsing</title>
+      <link>https://dirkhovy.com/publication/2019-gender-bias-part-of-speech-tagging-dependency-parsing/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019-gender-bias-part-of-speech-tagging-dependency-parsing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peer networks and entrepreneurship: A Pan-African RCT</title>
+      <link>https://dirkhovy.com/publication/2019_adansonia/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019_adansonia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Increasing In-Class Similarity by Retrofitting Embeddings with Demographic Information</title>
+      <link>https://dirkhovy.com/publication/2018_emnlp_retro/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2018_emnlp_retro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capturing Regional Variation with Distributed Place Representations and Geographic Retrofitting</title>
+      <link>https://dirkhovy.com/publication/2018-capturing-regional-variation-distributed-representations-geographic-retrofitting/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2018-capturing-regional-variation-distributed-representations-geographic-retrofitting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Bayesian Models of Annotation</title>
+      <link>https://dirkhovy.com/publication/2018-comparing-bayesian-models-annotation/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2018-comparing-bayesian-models-annotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting News Headline Popularity with Syntactic and Semantic Knowledge Using Multi-Task Learning</title>
+      <link>https://dirkhovy.com/publication/2018-predicting-news-headline-popularity-syntactic-semantic-knowledge-multitask-learning/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2018-predicting-news-headline-popularity-syntactic-semantic-knowledge-multitask-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Social and the Neural Network: How to Make Natural Language Processing about People again</title>
+      <link>https://dirkhovy.com/publication/2018-social-neural-network/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2018-social-neural-network/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

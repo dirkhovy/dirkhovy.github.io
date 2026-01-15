@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks | Dirk Hovy</title>
+    <link>https://dirkhovy.com/talk/</link>
+      <atom:link href="https://dirkhovy.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Thu, 20 Jun 2024 09:00:32 +0200</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Talks</title>
+      <link>https://dirkhovy.com/talk/</link>
+    </image>
+    
+    <item>
+      <title>Decoding AI</title>
+      <link>https://dirkhovy.com/talk/worldwideviews2024/</link>
+      <pubDate>Thu, 20 Jun 2024 09:00:32 +0200</pubDate>
+      <guid>https://dirkhovy.com/talk/worldwideviews2024/</guid>
+      <description>&lt;iframe style=&#34;border-radius:12px&#34; src=&#34;https://open.spotify.com/embed/episode/2uw5fHbTujCDmLKdpXDk8X?utm_source=generator&#34; width=&#34;100%&#34; height=&#34;352&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Unhumanizing Models</title>
+      <link>https://dirkhovy.com/talk/websci2024/</link>
+      <pubDate>Fri, 24 May 2024 09:00:32 +0200</pubDate>
+      <guid>https://dirkhovy.com/talk/websci2024/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/0UGhxVwRmcU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fünf ethische Herausforderungen in Sprachtechnologie, und wie wir sie adressieren können </title>
+      <link>https://dirkhovy.com/talk/zurich2024/</link>
+      <pubDate>Thu, 19 Oct 2023 18:00:32 +0200</pubDate>
+      <guid>https://dirkhovy.com/talk/zurich2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unhumanizing Models – Why we Need to Change how We Think about AI</title>
+      <link>https://dirkhovy.com/talk/vienna2023/</link>
+      <pubDate>Thu, 19 Oct 2023 16:45:32 +0200</pubDate>
+      <guid>https://dirkhovy.com/talk/vienna2023/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LoWiUYPLxms&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Before and after chatGPT: chances, changes, and opportunities of large language models in research</title>
+      <link>https://dirkhovy.com/talk/padova2023/</link>
+      <pubDate>Tue, 23 May 2023 16:45:32 +0200</pubDate>
+      <guid>https://dirkhovy.com/talk/padova2023/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/GdahMrKth2I&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conversations on Sustainable Development: ChatGPT</title>
+      <link>https://dirkhovy.com/talk/bigquestions2023/</link>
+      <pubDate>Sat, 18 Feb 2023 09:00:32 +0200</pubDate>
+      <guid>https://dirkhovy.com/talk/bigquestions2023/</guid>
+      <description>&lt;iframe style=&#34;border-radius:12px&#34; src=&#34;https://open.spotify.com/embed/episode/3sJaASrtIcW994MvYh5j0d?utm_source=generator&#34; width=&#34;100%&#34; height=&#34;352&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Chat ChatGPT</title>
+      <link>https://dirkhovy.com/talk/letschatethics2023/</link>
+      <pubDate>Thu, 09 Feb 2023 09:00:32 +0200</pubDate>
+      <guid>https://dirkhovy.com/talk/letschatethics2023/</guid>
+      <description>&lt;iframe style=&#34;border-radius:12px&#34; src=&#34;https://open.spotify.com/embed/episode/0bGk0z2PXq401V7UZJuMi0?utm_source=generator&#34; width=&#34;100%&#34; height=&#34;352&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

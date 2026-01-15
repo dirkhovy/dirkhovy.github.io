@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>domain adaptation | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/domain-adaptation/</link>
+      <atom:link href="https://dirkhovy.com/tags/domain-adaptation/index.xml" rel="self" type="application/rss+xml" />
+    <description>domain adaptation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>domain adaptation</title>
+      <link>https://dirkhovy.com/tags/domain-adaptation/</link>
+    </image>
+    
+    <item>
+      <title>MilaNLP at SemEval-2023 Task 10: Ensembling Domain-Adapted and Regularized Pretrained Language Models for Robust Sexism Detection</title>
+      <link>https://dirkhovy.com/publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

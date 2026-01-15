@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hate Speech | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/hate-speech/</link>
+      <atom:link href="https://dirkhovy.com/tags/hate-speech/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hate Speech</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Hate Speech</title>
+      <link>https://dirkhovy.com/tags/hate-speech/</link>
+    </image>
+    
+    <item>
+      <title>MilaNLP at SemEval-2023 Task 10: Ensembling Domain-Adapted and Regularized Pretrained Language Models for Robust Sexism Detection</title>
+      <link>https://dirkhovy.com/publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Respectful or Toxic? Using Zero-Shot Learning with Language Models to Detect Hate Speech</title>
+      <link>https://dirkhovy.com/publication/2023-zero-shot-prompting-hate-speech/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-zero-shot-prompting-hate-speech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The State of Profanity Obfuscation in Natural Language Processing Scientific Publications</title>
+      <link>https://dirkhovy.com/publication/2023-prof-profanity-obfuscation-nlp/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-prof-profanity-obfuscation-nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>It&#39;s Not Just Hate: A Multi-Dimensional Perspective on Detecting Harmful Speech Online</title>
+      <link>https://dirkhovy.com/publication/2022-not_just_hate/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-not_just_hate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Efficient Strategies for Expanding Hate Speech Detection into Under-Resourced Languages</title>
+      <link>https://dirkhovy.com/publication/2022-strategies-hate-speech-detection-under-resourced-languages/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-strategies-hate-speech-detection-under-resourced-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benchmarking Post-Hoc Interpretability Approaches for Transformer-based Misogyny Detection</title>
+      <link>https://dirkhovy.com/publication/2022-interpretability-transformer-mysogyny-detection/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-interpretability-transformer-mysogyny-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Harmful Sentence Completion in Language Models for LGBTQIA&#43; Individuals</title>
+      <link>https://dirkhovy.com/publication/2022-honest-hurtful-language-model-lgbtqia&#43;/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-honest-hurtful-language-model-lgbtqia&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pipelines for Social Bias Testing of Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2022-pipelines-social-bias-testing-language-models/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-pipelines-social-bias-testing-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entropy-based Attention Regularization Frees Unintended Bias Mitigation from Lists</title>
+      <link>https://dirkhovy.com/publication/2022-entropy-attention-regularization-bias/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-entropy-attention-regularization-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HONEST: Measuring Hurtful Sentence Completion in Language Models</title>
+      <link>https://dirkhovy.com/publication/2021-honest-hurtful-language-model/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-honest-hurtful-language-model/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

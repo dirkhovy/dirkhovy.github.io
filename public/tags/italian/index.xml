@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Italian | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/italian/</link>
+      <atom:link href="https://dirkhovy.com/tags/italian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Italian</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Italian</title>
+      <link>https://dirkhovy.com/tags/italian/</link>
+    </image>
+    
+    <item>
+      <title>XLM-EMO: Multilingual Emotion Prediction in Social Media Text</title>
+      <link>https://dirkhovy.com/publication/2022-xlmemo-multilingual-emotion-prediction/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-xlmemo-multilingual-emotion-prediction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FEEL-IT: Emotion and Sentiment Classification for the Italian Language</title>
+      <link>https://dirkhovy.com/publication/2021-feelit-italian-sentiment-emotion/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-feelit-italian-sentiment-emotion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

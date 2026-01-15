@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Dirk Hovy</title>
+    <link>https://dirkhovy.com/publication_types/2/</link>
+      <atom:link href="https://dirkhovy.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>https://dirkhovy.com/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance</title>
+      <link>https://dirkhovy.com/publication/2025-issuebench/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-issuebench/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Socially Aware Language Technologies: Perspectives and Practices</title>
+      <link>https://dirkhovy.com/publication/2025-socially-aware-language-technologies-perspectives-practices/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0100</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-socially-aware-language-technologies-perspectives-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impoverished Language Technology: The Lack of (Social) Class in NLP</title>
+      <link>https://dirkhovy.com/publication/2024-socialclass-survey/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-socialclass-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Demographic Factors Improve Text Classification? Revisiting Demographic Adaptation in the Age of Transformers</title>
+      <link>https://dirkhovy.com/publication/2023-can-demographic-factors-improve-text-classification/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-can-demographic-factors-improve-text-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Digital &#39;Echo Chambers&#39;: The Role of Viewpoint Diversity in Political Discussion</title>
+      <link>https://dirkhovy.com/publication/2023-beyond-digital-echo-chambers-role-viewpoint-diversity-political-discussion/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-beyond-digital-echo-chambers-role-viewpoint-diversity-political-discussion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Viewpoint: Artificial Intelligence Accidents Waiting to Happen?</title>
+      <link>https://dirkhovy.com/publication/2023-ai-normal-accidents-waiting-happen/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-ai-normal-accidents-waiting-happen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning from Disagreement: A Survey</title>
+      <link>https://dirkhovy.com/publication/2021-learning_from_disagreement_survey/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-learning_from_disagreement_survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Five sources of bias in natural language processing</title>
+      <link>https://dirkhovy.com/publication/2021-five-sources-bias/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-five-sources-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peer networks and entrepreneurship: A Pan-African RCT</title>
+      <link>https://dirkhovy.com/publication/2019_adansonia/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019_adansonia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Bayesian Models of Annotation</title>
+      <link>https://dirkhovy.com/publication/2018-comparing-bayesian-models-annotation/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2018-comparing-bayesian-models-annotation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

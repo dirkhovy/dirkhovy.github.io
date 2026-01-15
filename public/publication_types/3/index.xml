@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Dirk Hovy</title>
+    <link>https://dirkhovy.com/publication_types/3/</link>
+      <atom:link href="https://dirkhovy.com/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://dirkhovy.com/publication_types/3/</link>
+    </image>
+    
+    <item>
+      <title>Beyond Flesch-Kincaid: Prompt-based Metrics Improve Difficulty Classification of Educational Texts</title>
+      <link>https://dirkhovy.com/publication/2024-difficulty-classification/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-difficulty-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety </title>
+      <link>https://dirkhovy.com/publication/2024-safetyprompts/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-safetyprompts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversations as a Source for Teaching Scientific Concepts at Different Education Levels</title>
+      <link>https://dirkhovy.com/publication/2024-conversations-data/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-conversations-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classist Tools: Social Class Correlates with Performance in NLP</title>
+      <link>https://dirkhovy.com/publication/2024-socialclass-experiments/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-socialclass-experiments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is It Worth the (Environmental) Cost? Limited Evidence for the Benefits of Diachronic Continuous Training</title>
+      <link>https://dirkhovy.com/publication/2022-limitation-diachronic-continuous-training/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-limitation-diachronic-continuous-training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What the [MASK]? Making Sense of Language-Specific BERT Models</title>
+      <link>https://dirkhovy.com/publication/2020-bertlang-language-specific-bert/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020-bertlang-language-specific-bert/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>inequality | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/inequality/</link>
+      <atom:link href="https://dirkhovy.com/tags/inequality/index.xml" rel="self" type="application/rss+xml" />
+    <description>inequality</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Wed, 13 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>inequality</title>
+      <link>https://dirkhovy.com/tags/inequality/</link>
+    </image>
+    
+    <item>
+      <title>MENTALISM</title>
+      <link>https://dirkhovy.com/project/mentalism/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/project/mentalism/</guid>
+      <description>&lt;p&gt;Over the last decade, discontent in democracy, mistrust in institutions, and the rise of populist parties have strained European societies. Underlying these tensions are often increasing inequalities in Western countries, which fuel the discontent of individuals. The Covid pandemic further exacerbated these problems, as anti-Covid measures taken by governments differently impacted societal groups.&lt;/p&gt;
+&lt;p&gt;The MENTALISM project, funded by Fondazione Cariplo under grant agreement 2022-1480, combines modern social media analysis with traditional survey data to track inequality across Italy through the lens of the pandemic.&lt;/p&gt;
+&lt;p&gt;Our ground-breaking mixed-methods approach uses machine learning and text analysis to trace online grievances in a vast corpus of social media data. We combine these methods with survey protocols and econometric analysis to validate the findings and provide actionable policy advice. MENTALISM combines the advantages of social media data (high-frequency, individual-level information) with the strength of socio-economic surveys (representativeness). Our novel interdisciplinary approach will critically evaluate the value of social media monitoring for policy feedback. Moreover, it will establish protocols for policymakers to better respond to growing grievances brought on by inequality at various steps in the process.&lt;/p&gt;
+&lt;p&gt;This interdisciplinary project is led by Profs. Carlo Schwarz (economics), and Dirk Hovy (NLP).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bias | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/bias/</link>
+      <atom:link href="https://dirkhovy.com/tags/bias/index.xml" rel="self" type="application/rss+xml" />
+    <description>bias</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>bias</title>
+      <link>https://dirkhovy.com/tags/bias/</link>
+    </image>
+    
+    <item>
+      <title>Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entropy-based Attention Regularization Frees Unintended Bias Mitigation from Lists</title>
+      <link>https://dirkhovy.com/publication/2022-entropy-attention-regularization-bias/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-entropy-attention-regularization-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SAFETYKIT: First Aid for Measuring Safety in Open-domain Conversational Systems</title>
+      <link>https://dirkhovy.com/publication/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Five sources of bias in natural language processing</title>
+      <link>https://dirkhovy.com/publication/2021-five-sources-bias/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-five-sources-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“You Sound Just Like Your Father” Commercial Machine Translation Systems Include Stylistic Biases</title>
+      <link>https://dirkhovy.com/publication/2020_mt/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_mt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Biases in Natural Language Processing Models: A Conceptual Framework and Overview</title>
+      <link>https://dirkhovy.com/publication/2020_bias/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Women’s Syntactic Resilience and Men’s Grammatical Luck: Gender-Bias in Part-of-Speech Tagging and Dependency Parsing</title>
+      <link>https://dirkhovy.com/publication/2019-gender-bias-part-of-speech-tagging-dependency-parsing/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019-gender-bias-part-of-speech-tagging-dependency-parsing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

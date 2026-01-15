@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>totes | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/totes/</link>
+      <atom:link href="https://dirkhovy.com/tags/totes/index.xml" rel="self" type="application/rss+xml" />
+    <description>totes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Thu, 13 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>totes</title>
+      <link>https://dirkhovy.com/tags/totes/</link>
+    </image>
+    
+    <item>
+      <title>Tote Bag</title>
+      <link>https://dirkhovy.com/item/01/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/item/01/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

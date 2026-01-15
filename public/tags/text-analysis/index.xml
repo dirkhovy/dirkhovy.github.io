@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>text analysis | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/text-analysis/</link>
+      <atom:link href="https://dirkhovy.com/tags/text-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>text analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sun, 16 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>text analysis</title>
+      <link>https://dirkhovy.com/tags/text-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Text Analysis in Python for Social Scientists – Prediction and Classification</title>
+      <link>https://dirkhovy.com/publication/2022_nlpss2/</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022_nlpss2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Analysis in Python for Social Scientists – Discovery and Exploration</title>
+      <link>https://dirkhovy.com/publication/2020_nlpss/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_nlpss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peer networks and entrepreneurship: A Pan-African RCT</title>
+      <link>https://dirkhovy.com/publication/2019_adansonia/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019_adansonia/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

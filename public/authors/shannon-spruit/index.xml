@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shannon Spruit | Dirk Hovy</title>
+    <link>https://dirkhovy.com/authors/shannon-spruit/</link>
+      <atom:link href="https://dirkhovy.com/authors/shannon-spruit/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shannon Spruit</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Mon, 12 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Shannon Spruit</title>
+      <link>https://dirkhovy.com/authors/shannon-spruit/</link>
+    </image>
+    
+    <item>
+      <title>Guiding the Release of Safer E2E Conversational AI through Value Sensitive Design</title>
+      <link>https://dirkhovy.com/publication/2022-guiding_release_safer_e2e_conversational_ai_through_value_sensitive_design/</link>
+      <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-guiding_release_safer_e2e_conversational_ai_through_value_sensitive_design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SAFETYKIT: First Aid for Measuring Safety in Open-domain Conversational Systems</title>
+      <link>https://dirkhovy.com/publication/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

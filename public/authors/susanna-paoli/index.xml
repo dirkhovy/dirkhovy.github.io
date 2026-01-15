@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Susanna Paoli | Dirk Hovy</title>
+    <link>https://dirkhovy.com/authors/susanna-paoli/</link>
+      <atom:link href="https://dirkhovy.com/authors/susanna-paoli/index.xml" rel="self" type="application/rss+xml" />
+    <description>Susanna Paoli</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Susanna Paoli</title>
+      <link>https://dirkhovy.com/authors/susanna-paoli/</link>
+    </image>
+    
+    <item>
+      <title>Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

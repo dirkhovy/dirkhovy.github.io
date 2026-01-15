@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Alignment | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/ai-alignment/</link>
+      <atom:link href="https://dirkhovy.com/tags/ai-alignment/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI Alignment</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>AI Alignment</title>
+      <link>https://dirkhovy.com/tags/ai-alignment/</link>
+    </image>
+    
+    <item>
+      <title>IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance</title>
+      <link>https://dirkhovy.com/publication/2025-issuebench/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-issuebench/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-politicalcompass/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-politicalcompass/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

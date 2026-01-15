@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emma Strubell | Dirk Hovy</title>
+    <link>https://dirkhovy.com/authors/emma-strubell/</link>
+      <atom:link href="https://dirkhovy.com/authors/emma-strubell/index.xml" rel="self" type="application/rss+xml" />
+    <description>Emma Strubell</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sat, 10 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Emma Strubell</title>
+      <link>https://dirkhovy.com/authors/emma-strubell/</link>
+    </image>
+    
+    <item>
+      <title>Bridging Fairness and Environmental Sustainability in Natural Language Processing</title>
+      <link>https://dirkhovy.com/publication/2022-bridging_fairness_and_environmental_sustainability_in_natural_language_processing/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-bridging_fairness_and_environmental_sustainability_in_natural_language_processing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

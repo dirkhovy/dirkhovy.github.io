@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dataset | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/dataset/</link>
+      <atom:link href="https://dirkhovy.com/tags/dataset/index.xml" rel="self" type="application/rss+xml" />
+    <description>dataset</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>dataset</title>
+      <link>https://dirkhovy.com/tags/dataset/</link>
+    </image>
+    
+    <item>
+      <title>It&#39;s Not Just Hate: A Multi-Dimensional Perspective on Detecting Harmful Speech Online</title>
+      <link>https://dirkhovy.com/publication/2022-not_just_hate/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-not_just_hate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter-Demographer: A Flow-based Tool to Enrich Twitter Data</title>
+      <link>https://dirkhovy.com/publication/2022-twitter_demographer/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-twitter_demographer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two Contrasting Data Annotation Paradigms for Subjective NLP Tasks</title>
+      <link>https://dirkhovy.com/publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XLM-EMO: Multilingual Emotion Prediction in Social Media Text</title>
+      <link>https://dirkhovy.com/publication/2022-xlmemo-multilingual-emotion-prediction/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-xlmemo-multilingual-emotion-prediction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FEEL-IT: Emotion and Sentiment Classification for the Italian Language</title>
+      <link>https://dirkhovy.com/publication/2021-feelit-italian-sentiment-emotion/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-feelit-italian-sentiment-emotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BERTective: Language Models and Contextual Information for Deception Detection</title>
+      <link>https://dirkhovy.com/publication/2021_eacl_decour/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021_eacl_decour/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

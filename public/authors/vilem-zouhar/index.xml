@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vilém Zouhar | Dirk Hovy</title>
+    <link>https://dirkhovy.com/authors/vilem-zouhar/</link>
+      <atom:link href="https://dirkhovy.com/authors/vilem-zouhar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vilém Zouhar</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Vilém Zouhar</title>
+      <link>https://dirkhovy.com/authors/vilem-zouhar/</link>
+    </image>
+    
+    <item>
+      <title>Co-DETECT: Collaborative Discovery of Edge Cases in Text Classification?</title>
+      <link>https://dirkhovy.com/publication/2025-co-detect/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-co-detect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biased Tales: Cultural and Topic Bias in Generating Children’s Stories?</title>
+      <link>https://dirkhovy.com/publication/2025-biased-tales/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-biased-tales/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

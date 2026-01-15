@@ -1,0 +1,6325 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Incorporating Demographic Factors into Natural Language Processing Models">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dirkhovy.com/project/integrator/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#EF525B">
+  
+
+  
+  
+  
+  <script src="../../js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/paraiso-light.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/paraiso-light.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="../../css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="../../index.webmanifest">
+  <link rel="icon" type="image/png" href="../../images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://dirkhovy.com/project/integrator/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Dirk Hovy">
+  <meta property="og:url" content="https://dirkhovy.com/project/integrator/">
+  <meta property="og:title" content="INTEGRATOR | Dirk Hovy">
+  <meta property="og:description" content="Incorporating Demographic Factors into Natural Language Processing Models"><meta property="og:image" content="https://dirkhovy.com/project/integrator/featured.png">
+  <meta property="twitter:image" content="https://dirkhovy.com/project/integrator/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-01-27T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-01-27T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dirkhovy.com/project/integrator/"
+  },
+  "headline": "INTEGRATOR",
+  
+  "image": [
+    "https://dirkhovy.com/project/integrator/featured.png"
+  ],
+  
+  "datePublished": "2020-01-27T00:00:00Z",
+  "dateModified": "2020-01-27T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Authors"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dirk Hovy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Incorporating Demographic Factors into Natural Language Processing Models"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>INTEGRATOR | Dirk Hovy</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="../../">Dirk Hovy</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="../../"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Research</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../publication"><span>Publications</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../projects"><span>Projects</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../talk"><span>Talks</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="../../cv"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Fun</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../post"><span>Blog</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="../../items"><span>Leatherwork</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="../../contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>INTEGRATOR</h1>
+
+  
+
+  
+
+
+
+<meta content="2020-01-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-01-27 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jan 27, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="../../categories/demographic/">demographic</a></span>
+  
+
+  
+    
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 371px; max-height: 194px;">
+  <div style="position: relative">
+    <img src="../../project/integrator/featured.png" alt="" class="featured-image">
+    <span class="article-header-caption">INTEGRATOR logo</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Dirk Hovy, scientific director of DMI and Professor of computer science, has won an <strong>ERC starting grant of 1.5mln euros</strong>. His project INTEGRATOR, funded under grant agreement 949944, <strong>introduces demographic factors into language processing systems</strong>, which will improve algorithmic performance, avoid racism, sexism, and ageism, and open up new applications.
+What if I wrote that “winning an ERC Grant, Dirk Hovy got a sick result?”. Those familiar with the use of “sick” as a synonym for “great” or “awesome” among teenagers would think that Bocconi Knowledge hired a very young writer (or someone posing as such). The rest would think I went crazy. Current artificial intelligence-based language systems wouldn’t have a clue. “Natural language processing (NLP) technologies,” Prof. Hovy says, “fail to account for demographics both in understanding language and in generating it. And this failure prevents us from reaching human-like performance. It limits possible future applications and it introduces systematic bias against underrepresented demographic groups”.</p>
+<p>🗞️🗞️ Related articles featured in 
+<a href="https://corriereinnovazione.corriere.it/2021/03/26/professore-che-insegna-algoritmi-linguaggio-senza-pregiudizi-418efdac-8e28-11eb-8542-ee1d410d331e.shtml" target="_blank" rel="noopener">Corriere Innovazione</a> and 
+<a href="https://www.bidsa.unibocconi.eu/wps/wcm/connect/Site/Bidsa/Home/News_Events/ERC&#43;Dirk&#43;Hovy" target="_blank" rel="noopener">Bocconi News</a>.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9NLBOaAyrVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="../../tags/demographic/">demographic</a>
+  
+  <a class="badge badge-light" href="../../tags/nlp/">NLP</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="../../publication/2020_aaai_softlabels/">A Case for Soft Loss Functions</a></li>
+      
+      <li><a href="../../publication/2019_p2c/">Identifying Linguistic Areas for Geolocation</a></li>
+      
+      <li><a href="../../publication/2019_m2v/">Dense Node Representation for Geolocation</a></li>
+      
+      <li><a href="../../publication/2019_siri/">Hey Siri. Ok Google. Alexa: A topic modeling of user reviews for smart speakers</a></li>
+      
+      <li><a href="../../publication/2019-gender-bias-part-of-speech-tagging-dependency-parsing/">Women’s Syntactic Resilience and Men’s Grammatical Luck: Gender-Bias in Part-of-Speech Tagging and Dependency Parsing</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2025-consistency-key-disentangling-label-variation-nlp-intra-annotator-agreement/" >Consistency is Key: Disentangling Label Variation in Natural Language Processing with Intra-Annotator Agreement</a>
+    </h3>
+
+    <div class="article-style">
+      November, 2025
+    </div>
+
+    
+    <div class="article-style">
+      We commonly use agreement measures to assess the utility of judgements made by human annotators in Natural Language Processing (NLP) …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/gavin-abercrombie/">Gavin Abercrombie</a></span>, <span><a href="../../authors/tanvi-dinkar/">Tanvi Dinkar</a></span>, <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry</a></span>, <span><a href="../../authors/verena-rieser/">Verena Rieser</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2025.nlperspectives-1.6.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-consistency-key-disentangling-label-variation-nlp-intra-annotator-agreement/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2025-consistency-key-disentangling-label-variation-nlp-intra-annotator-agreement/" >
+      <img src="../../publication/2025-consistency-key-disentangling-label-variation-nlp-intra-annotator-agreement/featured_hua21a7e660ab30b2fed9dba0743828b20_67076_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/" >No for Some, Yes for Others: Persona Prompts and Other Sources of False Refusal in Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      November, 2025
+    </div>
+
+    
+    <div class="article-style">
+      Large language models (LLMs) are increasingly integrated into our daily lives and personalized. However, LLM personalization might also …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/flor-miriam-plaza-del-arco/">Flor Miriam Plaza-Del-Arco</a></span>, <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/nino-scherrer/">Nino Scherrer</a></span>, <span><a href="../../authors/emanuele-borgonovo/">Emanuele Borgonovo</a></span>, <span><a href="../../authors/elmar-plischke/">Elmar Plischke</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2025.winlp-main.39.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/" >
+      <img src="../../publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/featured_hu6ecd66614bac01eb36afd0d5b561d5e1_137540_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2025-issuebench/" >IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance</a>
+    </h3>
+
+    <div class="article-style">
+      September, 2025
+    </div>
+
+    
+    <div class="article-style">
+      Large language models (LLMs) are helping millions of users write texts about diverse issues, and in doing so expose users to different …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/musashi-hinck/">Musashi Hinck</a></span>, <span><a href="../../authors/valentin-hofmann/">Valentin Hofmann</a></span>, <span><a href="../../authors/kobi-hackenburg/">Kobi Hackenburg</a></span>, <span><a href="../../authors/valentina-pyatkin/">Valentina Pyatkin</a></span>, <span><a href="../../authors/faeze-brahman/">Faeze Brahman</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2502.08395" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-issuebench/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/paul-rottger/issuebench" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://huggingface.co/datasets/Paul/IssueBench" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2025-issuebench/" >
+      <img src="../../publication/2025-issuebench/featured_hue1495e39b2a3a4f789dd6fd4dd296cc9_117264_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2025-ses-survey/" >The AI Gap: How Socioeconomic Status Affects Language Technology Interactions</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2025
+    </div>
+
+    
+    <div class="article-style">
+      Socioeconomic status (SES) fundamentally influences how people interact with each other and, more recently, with digital technologies …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/elisa-bassignana/">Elisa Bassignana*</a></span>, <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry*</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2025.acl-long.914/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-ses-survey/cite.bib">
+  Cite
+</button>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://huggingface.co/datasets/MilaNLProc/survey-language-technologies" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2025-ses-survey/" >
+      <img src="../../publication/2025-ses-survey/featured_hubefeeca3036d4afa8d9d6bd448d63515_105185_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/" >Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals&#39; Subjective Text Perceptions</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2025
+    </div>
+
+    
+    <div class="article-style">
+      People naturally vary in their annotations for subjective questions and some of this variation is thought to be due to the …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/matthias-orlikowski/">Matthias Orlikowski</a></span>, <span><a href="../../authors/jiaxin-pei/">Jiaxin Pei</a></span>, <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/philipp-cimiano/">Philipp Cimiano</a></span>, <span><a href="../../authors/david-jurgens/">David Jurgens</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2025.acl-long.104.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/" >
+      <img src="../../publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/featured_hu745c2901a21f5f28a040e8e8dc41e8d7_110895_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2025-educators-perceptions-large-language-models-tutors-comparing-human-ai-tutors-blind-text-only-setting/" >Educators&#39; Perceptions of Large Language Models as Tutors: Comparing Human and AI Tutors in a Blind Text-only Setting</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2025
+    </div>
+
+    
+    <div class="article-style">
+      The rapid development of Large Language Models (LLMs) opens up the possibility of using them aspersonal tutors. This has led to the …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/sankalan-pal-chowdhury/">Sankalan Pal Chowdhury</a></span>, <span><a href="../../authors/terry-jingchen-zhang/">Terry Jingchen Zhang</a></span>, <span><a href="../../authors/donya-rooein/">Donya Rooein</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/tanja-kaser/">Tanja Käser</a></span>, <span><a href="../../authors/mrinmaya-sachan/">Mrinmaya Sachan</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2025.bea-1.28.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-educators-perceptions-large-language-models-tutors-comparing-human-ai-tutors-blind-text-only-setting/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-divine-llamas-emotion-bias/" >Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      September, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Emotions play important epistemological and cognitive roles in our lives, revealing our values and guiding our actions. Previous work …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/flor-miriam-plaza-del-arco/">Flor Miriam Plaza-del-Arco</a></span>, <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry</a></span>, <span><a href="../../authors/susanna-paoli/">Susanna Paoli</a></span>, <span><a href="../../authors/alba-curry/">Alba Curry</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.arxiv.org/pdf/2407.06908" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-divine-llamas-emotion-bias/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-divine-llamas-emotion-bias/" >
+      <img src="../../publication/2024-divine-llamas-emotion-bias/featured_hudf947509907f1bc1e0cc5645c5eadc6b_156026_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-compromesso/" >Compromesso! Italian Many-Shot Jailbreaks Undermine the Safety of Large Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      August, 2024
+    </div>
+
+    
+    <div class="article-style">
+      As diverse linguistic communities and users adopt large language models (LLMs), assessing their safety across languages becomes …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/fabio-pernisi/">Fabio Pernisi</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.acl-srw.29/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-compromesso/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-compromesso/" >
+      <img src="../../publication/2024-compromesso/featured_hu8829296ab17f379832fbffc24a024540_467643_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-myanswerisc/" >My Answer is C: First-Token Probabilities Do Not Match Text Answers in Instruction-Tuned Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      August, 2024
+    </div>
+
+    
+    <div class="article-style">
+      The open-ended nature of language generation makes the evaluation of autoregressive large language models (LLMs) challenging. One …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/xinpeng-wang/">Xinpeng Wang</a></span>, <span><a href="../../authors/bolei-ma/">Bolei Ma</a></span>, <span><a href="../../authors/chengzhi-hu/">Chengzhi Hu</a></span>, <span><a href="../../authors/leon-weber-genzel/">Leon Weber-Genzel</a></span>, <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/frauke-kreuter/">Frauke Kreuter</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/barbara-plank/">Barbara Plank</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.findings-acl.441/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-myanswerisc/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-myanswerisc/" >
+      <img src="../../publication/2024-myanswerisc/featured_hu4db66ba761f1ec3d5f41c8f44e8469cd_353367_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-xstest/" >XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Without proper safeguards, large language models will readily follow malicious instructions and generate toxic content. This risk …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/hannah-rose-kirk/">Hannah Rose Kirk</a></span>, <span><a href="../../authors/bertie-vidgen/">Bertie Vidgen</a></span>, <span><a href="../../authors/giuseppe-attanasio/">Giuseppe Attanasio</a></span>, <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.naacl-long.301/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-xstest/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-xstest/" >
+      <img src="../../publication/2024-xstest/featured_hua6d6cae09427ade9632b5b8ea33f9248_126590_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-difficulty-classification/" >Beyond Flesch-Kincaid: Prompt-based Metrics Improve Difficulty Classification of Educational Texts</a>
+    </h3>
+
+    <div class="article-style">
+      May, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Using large language models (LLMs) for educational applications like dialogue-based teaching is a hot topic. Effective teaching, …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/donya-rooein/">Donya Rooein</a></span>, <span><a href="../../authors/paul-rottger/">Paul Rottger</a></span>, <span><a href="../../authors/anastassia-shaitarova/">Anastassia Shaitarova</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.bea-1.5.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-difficulty-classification/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-difficulty-classification/" >
+      <img src="../../publication/2024-difficulty-classification/featured_hu1a444355d106538817b0dda9478dc626_362915_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-safetyprompts/" >SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety </a>
+    </h3>
+
+    <div class="article-style">
+      April, 2024
+    </div>
+
+    
+    <div class="article-style">
+      The last two years have seen a rapid growth in concerns around the safety of large language models (LLMs). Researchers and …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/fabio-pernisi/">Fabio Pernisi</a></span>, <span><a href="../../authors/bertie-vidgen/">Bertie Vidgen</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2404.05399" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-safetyprompts/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/indomita/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-safetyprompts/" >
+      <img src="../../publication/2024-safetyprompts/featured_hu1eb7edb5f624552609b32a848288a2e8_416757_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-emotion-gender-stereotypes/" >Angry Men, Sad Women: Large Language Models Reflect Gendered Stereotypes in Emotion Attribution</a>
+    </h3>
+
+    <div class="article-style">
+      March, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Large language models (LLMs) reflect societal norms and biases, especially about gender. While societal biases and stereotypes have …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/flor-miriam-plaza-del-arco/">Flor Miriam Plaza-del-Arco</a></span>, <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry</a></span>, <span><a href="../../authors/alba-curry/">Alba Curry</a></span>, <span><a href="../../authors/gavin-abercrombie/">Gavin Abercrombie</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.acl-long.415.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-emotion-gender-stereotypes/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-emotion-gender-stereotypes/" >
+      <img src="../../publication/2024-emotion-gender-stereotypes/featured_huc8066d96546c063076d5cd84277cf3a5_46375_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-conversations-data/" >Conversations as a Source for Teaching Scientific Concepts at Different Education Levels</a>
+    </h3>
+
+    <div class="article-style">
+      March, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Open conversations are one of the most engaging forms of teaching. However, creating those conversations in educational software is a …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/donya-rooein/">Donya Rooein</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2404.10475.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-conversations-data/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-conversations-data/" >
+      <img src="../../publication/2024-conversations-data/featured_hu7f239de7cf5d7f829ba600f91b6f4512_1553735_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-emotion-analysis-survey/" >Emotion Analysis in NLP: Trends, Gaps and Roadmap for Future Directions</a>
+    </h3>
+
+    <div class="article-style">
+      March, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Emotions are a central aspect of communication. Consequently, emotion analysis (EA) is a rapidly growing field in natural language …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/flor-miriam-plaza-del-arco/">Flor Miriam Plaza-del-Arco</a></span>, <span><a href="../../authors/alba-curry/">Alba Curry</a></span>, <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.lrec-main.506.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-emotion-analysis-survey/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+  
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-emotion-analysis-survey/" >
+      <img src="../../publication/2024-emotion-analysis-survey/featured_hue8c03b10af16bb8f049f151e80886965_45661_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-socialclass-experiments/" >Classist Tools: Social Class Correlates with Performance in NLP</a>
+    </h3>
+
+    <div class="article-style">
+      March, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Since the foundational work of William Labov on the social stratification of language (Labov, 1964), linguistics has made concentrated …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry</a></span>, <span><a href="../../authors/giuseppe-attanasio/">Giuseppe Attanasio</a></span>, <span><a href="../../authors/zeerak-talat/">Zeerak Talat</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2403.04445" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-socialclass-experiments/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2024-socialclass-experiments/" >
+      <img src="../../publication/2024-socialclass-experiments/featured_hu8ff5550c8d884dee8d2d84d9cf62add7_158670_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2024-socialclass-survey/" >Impoverished Language Technology: The Lack of (Social) Class in NLP</a>
+    </h3>
+
+    <div class="article-style">
+      March, 2024
+    </div>
+
+    
+    <div class="article-style">
+      Since Labov&rsquo;s (1964) foundational work on the social stratification of language, linguistics has dedicated concerted efforts …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry</a></span>, <span><a href="../../authors/zeerak-talat/">Zeerak Talat</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2403.03874" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-socialclass-survey/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-label-variation-llms/" >Wisdom of Instruction-Tuned Language Model Crowds. Exploring Model Label Variation</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2023
+    </div>
+
+    
+    <div class="article-style">
+      Large Language Models (LLMs) exhibit remarkable text classification capabilities, excelling in zero- and few-shot learning (ZSL and …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/flor-miriam-plaza-del-arco/">Flor Miriam Plaza-del-Arco</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2024.nlperspectives-1.2.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-label-variation-llms/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/" >MilaNLP at SemEval-2023 Task 10: Ensembling Domain-Adapted and Regularized Pretrained Language Models for Robust Sexism Detection</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2023
+    </div>
+
+    
+    <div class="article-style">
+      We present the system proposed by the MilaNLP team for the Explainable Detection of Online Sexism (EDOS) shared task. We propose an …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry</a></span>, <span><a href="../../authors/giuseppe-attanasio/">Giuseppe Attanasio</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.semeval-1.285.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MilaNLProc/milanlp-at-edos" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/" >
+      <img src="../../publication/2023-milanlp-semeval-2023-task-10-ensembling-domain-adapted-regularized-pretrained-language-models-robust-sexism-detection/featured_hua33d7bc943096a0597d37e936f20200f_507467_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-zero-shot-prompting-hate-speech/" >Respectful or Toxic? Using Zero-Shot Learning with Language Models to Detect Hate Speech</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2023
+    </div>
+
+    
+    <div class="article-style">
+      Hate speech detection faces two significant challenges: 1) the limited availability of labeled data and 2) the high variability of hate …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/flor-miriam-plaza-del-arco/">Flor Miriam Plaza-del-Arco</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.woah-1.6.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-zero-shot-prompting-hate-speech/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-zero-shot-prompting-hate-speech/" >
+      <img src="../../publication/2023-zero-shot-prompting-hate-speech/featured_hu047470c8fae217b1caa2862384a3e7a3_57642_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/" >Temporal and Second Language Influence on Intra-Annotator Agreement and Stability in Hate Speech Labelling</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2023
+    </div>
+
+    
+    <div class="article-style">
+      Much work in natural language processing (NLP) relies on human annotation. The majority of this implicitly assumes that annotator’s …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/gavin-abercrombie/">Gavin Abercrombie</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/vinodkumar-prabhakaran/">Vinodkumar Prabhakaran</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.law-1.10.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/" >
+      <img src="../../publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/featured_hu98ceb989dfd9a512621238a9f1e0b37d_111432_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/" >The Ecological Fallacy in Annotation: Modeling Human Label Variation goes beyond Sociodemographics</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2023
+    </div>
+
+    
+    <div class="article-style">
+      Many NLP tasks exhibit human label variation, where different annotators give different labels to the same texts. This variation is …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/matthias-orlikowski/">Matthias Orlikowski</a></span>, <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/philipp-cimiano/">Philipp Cimiano</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.acl-short.88.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/" >
+      <img src="../../publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/featured_hu77d25ed6d86675b75b704aea39b24e1b_87137_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-prof-profanity-obfuscation-nlp/" >The State of Profanity Obfuscation in Natural Language Processing Scientific Publications</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2023
+    </div>
+
+    
+    <div class="article-style">
+      Work on hate speech has made considering rude and harmful examples in scientific publications inevitable. This situation raises various …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.findings-acl.240.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-prof-profanity-obfuscation-nlp/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/dnozza/profanity-obfuscation" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-prof-profanity-obfuscation-nlp/" >
+      <img src="../../publication/2023-prof-profanity-obfuscation-nlp/featured_hubb72355d6124a76b9b3b61f5aa4ee3b0_62619_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-commercial-machine-translation-fail-neopronouns/" >What about &#39;&#39;em&#39;&#39;? How Commercial Machine Translation Fails to Handle (Neo-)Pronouns</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2023
+    </div>
+
+    
+    <div class="article-style">
+      As 3rd-person pronoun usage shifts to include novel forms, e.g., neopronouns, we need more research on identity-inclusive NLP. …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/anne-lauscher/">Anne Lauscher</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/ehm-miltersen/">Ehm Miltersen</a></span>, <span><a href="../../authors/archie-crowley/">Archie Crowley</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.acl-long.23.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-commercial-machine-translation-fail-neopronouns/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-commercial-machine-translation-fail-neopronouns/" >
+      <img src="../../publication/2023-commercial-machine-translation-fail-neopronouns/featured_hu06db40d5b74186a256fffe8acd19a23f_316888_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-interpretability-for-fairer-machine-translation/" >What about &#39;&#39;em&#39;&#39;? How Commercial Machine Translation Fails to Handle (Neo-)Pronouns</a>
+    </h3>
+
+    <div class="article-style">
+      July, 2023
+    </div>
+
+    
+    <div class="article-style">
+      As 3rd-person pronoun usage shifts to include novel forms, e.g., neopronouns, we need more research on identity-inclusive NLP. …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/anne-lauscher/">Anne Lauscher</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/ehm-miltersen/">Ehm Miltersen</a></span>, <span><a href="../../authors/archie-crowley/">Archie Crowley</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.acl-long.23.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-interpretability-for-fairer-machine-translation/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-interpretability-for-fairer-machine-translation/" >
+      <img src="../../publication/2023-interpretability-for-fairer-machine-translation/featured_hu6d9f79000767ad3330707d0db941a5c9_172802_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-can-demographic-factors-improve-text-classification/" >Can Demographic Factors Improve Text Classification? Revisiting Demographic Adaptation in the Age of Transformers</a>
+    </h3>
+
+    <div class="article-style">
+      May, 2023
+    </div>
+
+    
+    <div class="article-style">
+      Demographic factors (e.g., gender or age) shape our language. Previous work showed that incorporating demographic factors can …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/chia-chien-hung/">Chia-chien Hung</a></span>, <span><a href="../../authors/anne-lauscher/">Anne Lauscher</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/simone-paolo-ponzetto/">Simone Paolo Ponzetto</a></span>, <span><a href="../../authors/goran-glavas/">Goran Glavaš</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.findings-eacl.116.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-can-demographic-factors-improve-text-classification/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-can-demographic-factors-improve-text-classification/" >
+      <img src="../../publication/2023-can-demographic-factors-improve-text-classification/featured_hu1d734dfa4cd820ea9df405f89a95bc0d_346440_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-know-your-audience-education/" >Know Your Audience: Do LLMs Adapt to Different Age and Education Levels?</a>
+    </h3>
+
+    <div class="article-style">
+      April, 2023
+    </div>
+
+    
+    <div class="article-style">
+      Large language models (LLMs) offer a range of new possibilities, including adapting the text to different audiences and their reading …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/donya-rooein/">Donya Rooein</a></span>, <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2312.02065.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-know-your-audience-education/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-know-your-audience-education/" >
+      <img src="../../publication/2023-know-your-audience-education/featured_hu7b4697fcc3eba8dadadabf90f02ca9c6_93492_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2023-ai-normal-accidents-waiting-happen/" >Viewpoint: Artificial Intelligence Accidents Waiting to Happen?</a>
+    </h3>
+
+    <div class="article-style">
+      January, 2023
+    </div>
+
+    
+    <div class="article-style">
+      Artificial Intelligence (AI) is at a crucial point in its development: stable enough to be used in production systems, and increasingly …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/amanda-cercas-curry/">Amanda Cercas Curry</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.jair.org/index.php/jair/article/view/14263/26889" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-ai-normal-accidents-waiting-happen/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2023-ai-normal-accidents-waiting-happen/" >
+      <img src="../../publication/2023-ai-normal-accidents-waiting-happen/featured_hu82d626f6ded60c156a76f8c18f29ef24_66361_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-twitter_demographer/" >Twitter-Demographer: A Flow-based Tool to Enrich Twitter Data</a>
+    </h3>
+
+    <div class="article-style">
+      December, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Twitter data have become essential to Natural Language Processing (NLP) and social science research, driving various scientific …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/vincenzo-cutrona/">Vincenzo Cutrona</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2022.emnlp-demos.29.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-twitter_demographer/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MilaNLProc/twitter-demographer" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-twitter_demographer/" >
+      <img src="../../publication/2022-twitter_demographer/featured_hu0560ce81da2a2bf50a6497197512613f_218179_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-bridging_fairness_and_environmental_sustainability_in_natural_language_processing/" >Bridging Fairness and Environmental Sustainability in Natural Language Processing</a>
+    </h3>
+
+    <div class="article-style">
+      December, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Fairness and environmental impact are important research directions for the sustainable development of artificial intelligence. …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/marius-hessenthaler/">Marius Hessenthaler</a></span>, <span><a href="../../authors/emma-strubell/">Emma Strubell</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/anne-lauscher/">Anne Lauscher</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2022.emnlp-main.533.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-bridging_fairness_and_environmental_sustainability_in_natural_language_processing/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-bridging_fairness_and_environmental_sustainability_in_natural_language_processing/" >
+      <img src="../../publication/2022-bridging_fairness_and_environmental_sustainability_in_natural_language_processing/featured_hu708a8f77d7fb300a9a9030a9252cf6a2_420910_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-socioprobe_what_when_where_language_models_learn_about_sociodemographics/" >SocioProbe: What, When, and Where Language Models Learn about Sociodemographics</a>
+    </h3>
+
+    <div class="article-style">
+      December, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Pre-trained language models (PLMs) have outperformed other NLP models on a wide range of tasks. Opting for a more thorough …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/anne-lauscher/">Anne Lauscher</a></span>, <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/samuel-r.-bowman/">Samuel R. Bowman</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2022.emnlp-main.539.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-socioprobe_what_when_where_language_models_learn_about_sociodemographics/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-socioprobe_what_when_where_language_models_learn_about_sociodemographics/" >
+      <img src="../../publication/2022-socioprobe_what_when_where_language_models_learn_about_sociodemographics/featured_hu68d56b4140ddbe6bf09b904d9bc5f8a4_149380_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-strategies-hate-speech-detection-under-resourced-languages/" >Data-Efficient Strategies for Expanding Hate Speech Detection into Under-Resourced Languages</a>
+    </h3>
+
+    <div class="article-style">
+      October, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Hate speech is a global phenomenon, but most hate speech datasets so far focus on English-language content. This hinders the …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2022.emnlp-main.383.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-strategies-hate-speech-detection-under-resourced-languages/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-strategies-hate-speech-detection-under-resourced-languages/" >
+      <img src="../../publication/2022-strategies-hate-speech-detection-under-resourced-languages/featured_huab227a7a7193e26db534d39d501fe2a5_299538_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-limitation-diachronic-continuous-training/" >Is It Worth the (Environmental) Cost? Limited Evidence for the Benefits of Diachronic Continuous Training</a>
+    </h3>
+
+    <div class="article-style">
+      October, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Language is constantly changing and evolving, leaving language models to quickly become outdated, both factually and linguistically. …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/giuseppe-attanasio/">Giuseppe Attanasio</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2210.07365.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-limitation-diachronic-continuous-training/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender/" >Welcome to the Modern World of Pronouns: Identity-Inclusive Natural Language Processing beyond Gender</a>
+    </h3>
+
+    <div class="article-style">
+      October, 2022
+    </div>
+
+    
+    <div class="article-style">
+      The world of pronouns is changing – from a closed word class with few members to an open set of terms to reflect identities. However, …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/anne-lauscher/">Anne Lauscher</a></span>, <span><a href="../../authors/archie-crowley/">Archie Crowley</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender/" >
+      <img src="../../publication/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender/featured_huff98ab0a97b050a40375cb7b991f1aae_93921_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-guiding_release_safer_e2e_conversational_ai_through_value_sensitive_design/" >Guiding the Release of Safer E2E Conversational AI through Value Sensitive Design</a>
+    </h3>
+
+    <div class="article-style">
+      September, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Over the last several years, end-to-end neural conversational agents have vastly improved their ability to carry unrestricted, …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/a.-stevie-bergman/">A. Stevie Bergman</a></span>, <span><a href="../../authors/gavin-abercrombie/">Gavin Abercrombie</a></span>, <span><a href="../../authors/shannon-spruit/">Shannon Spruit</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/emily-dinan/">Emily Dinan</a></span>, <span><a href="../../authors/y-lan-boureau/">Y-Lan Boureau</a></span>, <span><a href="../../authors/verena-rieser/">Verena Rieser</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2022-guiding_release_safer_e2e_conversational_ai_through_value_sensitive_design/2022-guiding_release_safer_e2e_conversational_ai_through_value_sensitive_design.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-guiding_release_safer_e2e_conversational_ai_through_value_sensitive_design/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa/" >Hard and Soft Evaluation of NLP models with BOOtSTrap SAmpling - BooStSa</a>
+    </h3>
+
+    <div class="article-style">
+      May, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Natural Language Processing (NLP) ‘s applied nature makes it necessary to select the most effective and robust models. Producing …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/tommaso-fornaciari/">Tommaso Fornaciari</a></span>, <span><a href="../../authors/alexandra-uma/">Alexandra Uma</a></span>, <span><a href="../../authors/massimo-poesio/">Massimo Poesio</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/fornaciari/boostsa" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa/" >
+      <img src="../../publication/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa/featured_hu4d2137bf670ee8485c9ae7c4e1a1c588_77181_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-interpretability-transformer-mysogyny-detection/" >Benchmarking Post-Hoc Interpretability Approaches for Transformer-based Misogyny Detection</a>
+    </h3>
+
+    <div class="article-style">
+      April, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Transformer-based Natural Language Processing models have become the standard for hate speech detection. However, the unconscious use …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/giuseppe-attanasio/">Giuseppe Attanasio</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/eliana-pastor/">Eliana Pastor</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2022-interpretability-transformer-mysogyny-detection/2022-interpretability-transformer-mysogyny-detection.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-interpretability-transformer-mysogyny-detection/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-interpretability-transformer-mysogyny-detection/" >
+      <img src="../../publication/2022-interpretability-transformer-mysogyny-detection/featured_hu91403dba8673664ba4e7cd18573b4a31_194562_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-honest-hurtful-language-model-lgbtqia&#43;/" >Measuring Harmful Sentence Completion in Language Models for LGBTQIA&#43; Individuals</a>
+    </h3>
+
+    <div class="article-style">
+      April, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Current language technology is ubiquitous and directly influences individuals&rsquo; lives worldwide. Given the recent trend in AI on …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/anne-lauscher/">Anne Lauscher</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2022-honest-hurtful-language-model-lgbtqia&#43;/2022-honest-hurtful-language-model-LGBTQIA&#43;.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-honest-hurtful-language-model-lgbtqia&#43;/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MilaNLProc/honest" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-honest-hurtful-language-model-lgbtqia&#43;/" >
+      <img src="../../publication/2022-honest-hurtful-language-model-lgbtqia&#43;/featured_hucc9caae074432cc298ec8fbb8f93da5b_294784_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-pipelines-social-bias-testing-language-models/" >Pipelines for Social Bias Testing of Large Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      April, 2022
+    </div>
+
+    
+    <div class="article-style">
+      The maturity level of language models is now at a stage in which many companies rely on them to solve various tasks. However, while …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2022.bigscience-1.6.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-pipelines-social-bias-testing-language-models/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2022-pipelines-social-bias-testing-language-models/2022-pipelines-social-bias-testing-language-models-poster.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-pipelines-social-bias-testing-language-models/" >
+      <img src="../../publication/2022-pipelines-social-bias-testing-language-models/featured_hu52c7e8f0a79c7109e2be887597ee6938_78482_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/" >Two Contrasting Data Annotation Paradigms for Subjective NLP Tasks</a>
+    </h3>
+
+    <div class="article-style">
+      April, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Labelled data is the foundation of most natural language processing tasks. However, labelling data is difficult and there often are …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/paul-rottger/">Paul Röttger</a></span>, <span><a href="../../authors/bertie-vidgen/">Bertie Vidgen</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/janet-b.-pierrehumbert/">Janet B. Pierrehumbert</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/" >
+      <img src="../../publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/featured_hu5610ede5fa9e763f4c7b366c01f7e609_87377_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-xlmemo-multilingual-emotion-prediction/" >XLM-EMO: Multilingual Emotion Prediction in Social Media Text</a>
+    </h3>
+
+    <div class="article-style">
+      April, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Detecting emotion in text allows social and computational scientists to study how people behave and react to online events. However, …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2022.wassa-1.18.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-xlmemo-multilingual-emotion-prediction/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MilaNLProc/xlm-emo" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-xlmemo-multilingual-emotion-prediction/" >
+      <img src="../../publication/2022-xlmemo-multilingual-emotion-prediction/featured_hu428aa5e300f2fe7b2a499aa0b78e5de8_371048_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-entropy-attention-regularization-bias/" >Entropy-based Attention Regularization Frees Unintended Bias Mitigation from Lists</a>
+    </h3>
+
+    <div class="article-style">
+      March, 2022
+    </div>
+
+    
+    <div class="article-style">
+      Natural Language Processing (NLP) models risk overfitting to specific terms in the training data, thereby reducing their performance, …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/giuseppe-attanasio/">Giuseppe Attanasio</a></span>, <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/elena-baralis/">Elena Baralis</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2022-entropy-attention-regularization-bias/2022-entropy-attention-regularization-bias.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-entropy-attention-regularization-bias/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/g8a9/ear" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2022-entropy-attention-regularization-bias/" >
+      <img src="../../publication/2022-entropy-attention-regularization-bias/featured_hu507113e42c4f700b2728b85d5b9d6deb_127537_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems/" >SAFETYKIT: First Aid for Measuring Safety in Open-domain Conversational Systems</a>
+    </h3>
+
+    <div class="article-style">
+      March, 2022
+    </div>
+
+    
+    <div class="article-style">
+      The social impact of natural language processing and its applications has received increasing attention.  In this position paper, we …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/emily-dinan/">Emily Dinan</a></span>, <span><a href="../../authors/gavin-abercrombie/">Gavin Abercrombie</a></span>, <span><a href="../../authors/a.-stevie-bergman/">A. Stevie Bergman</a></span>, <span><a href="../../authors/shannon-spruit/">Shannon Spruit</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/y-lan-boureau/">Y-Lan Boureau</a></span>, <span><a href="../../authors/verena-rieser/">Verena Rieser</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-safetykit-first-aid-measuring-safety-open-domain-conversational-systems/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2021-five-sources-bias/" >Five sources of bias in natural language processing</a>
+    </h3>
+
+    <div class="article-style">
+      August, 2021
+    </div>
+
+    
+    <div class="article-style">
+      Recently, there has been an increased interest in demographically grounded bias in natural language processing (NLP) applications. Much …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/shrimai-prabhumoye/">Shrimai Prabhumoye</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/lnc3.12432" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-five-sources-bias/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2021-five-sources-bias/" >
+      <img src="../../publication/2021-five-sources-bias/featured_huf30829fbba8a91dca78008f94603389e_442057_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2021-honest-hurtful-language-model/" >HONEST: Measuring Hurtful Sentence Completion in Language Models</a>
+    </h3>
+
+    <div class="article-style">
+      June, 2021
+    </div>
+
+    
+    <div class="article-style">
+      Language models have revolutionized the field of NLP. However, language models capture and proliferate hurtful stereotypes, especially …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/debora-nozza/">Debora Nozza</a></span>, <span><a href="../../authors/federico-bianchi/">Federico Bianchi</a></span>, <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2021-honest-hurtful-language-model/2021-honest-hurtful-language-model.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-honest-hurtful-language-model/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MilaNLProc/honest" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2021-honest-hurtful-language-model/2021-honest-hurtful-language-model-poster.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2021-honest-hurtful-language-model/2021-honest-hurtful-language-model-presentation.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://towardsdatascience.com/can-too-much-bert-be-bad-for-you-92f0014e099b" target="_blank" rel="noopener">
+    
+    Blog Post
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2021-honest-hurtful-language-model/" >
+      <img src="../../publication/2021-honest-hurtful-language-model/featured_huc2dea59ec07504ec9a7954dfed248eff_135261_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="../../publication/2021-importance-modeling-social-factors-language/" >The Importance of Modeling Social Factors of Language: Theory and Practice</a>
+    </h3>
+
+    <div class="article-style">
+      June, 2021
+    </div>
+
+    
+    <div class="article-style">
+      Natural language processing (NLP) applications are now more powerful and ubiquitous than ever before. With rapidly developing (neural) …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="../../authors/dirk-hovy/">Dirk Hovy</a></span>, <span><a href="../../authors/diyi-yang/">Diyi Yang</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../publication/2021-importance-modeling-social-factors-language/2021-importance-modeling-social-factors-language.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-importance-modeling-social-factors-language/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../../project/integrator/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="../../publication/2021-importance-modeling-social-factors-language/" >
+      <img src="../../publication/2021-importance-modeling-social-factors-language/featured_hu001ef6407ee20e3ece2ac2d73f3aec78_83083_150x0_resize_lanczos_3.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="../../js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/css.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/bash.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/javascript.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/markdown.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="../../js/academic.min.5cbe51271615d69caead0155ce0cb8ce.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="../../license/">LICENSE: CC-BY-SA <br> <i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i> </a><br>
+  </p>
+  
+
+  <p class="powered-by">
+    ©  Dirk Hovy, 2026 &middot; 
+
+    Made with <i class="far fa-heart" style="color:#E13D3D"></i> and the 
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>. Inspired by <a href="https://alison.rbind.io" target="_blank" rel="noopener">Alison Hill's website</a>
+
+	<a href="https://github.com/rbind/apreshill" target="_blank" rel="noopener"><i class="fas fa-code-branch" style="color:#E13D3D"></i></a>
+	
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computational social science | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/computational-social-science/</link>
+      <atom:link href="https://dirkhovy.com/tags/computational-social-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>computational social science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sat, 06 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>computational social science</title>
+      <link>https://dirkhovy.com/tags/computational-social-science/</link>
+    </image>
+    
+    <item>
+      <title>Proceedings of the First Workshop on Cross-Cultural Considerations in NLP (C3NLP)</title>
+      <link>https://dirkhovy.com/publication/2023-proceedings-c3nlp/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-proceedings-c3nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Digital &#39;Echo Chambers&#39;: The Role of Viewpoint Diversity in Political Discussion</title>
+      <link>https://dirkhovy.com/publication/2023-beyond-digital-echo-chambers-role-viewpoint-diversity-political-discussion/</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-beyond-digital-echo-chambers-role-viewpoint-diversity-political-discussion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiMac</title>
+      <link>https://dirkhovy.com/project/mimac/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/project/mimac/</guid>
+      <description>&lt;p&gt;In this inter-disciplinary project, Dirk Hovy and Tommaso Fornaciari team up with an international team of political scientists (led bt the University of Gothenburg) to develop mixed methods for analyzing political parties’ promises to voters during election campaigns. For democracy to function effectively, political parties must offer clear choices to voters during election campaigns. However, as parties’ communication with voters has become increasingly fragmented and targeted, it is much harder for citizens to keep track of what parties are promising. This threatens the quality of democratic representation. It also challenges established research methods for studying parties’ campaign promises. This project will develop new methods for studying parties’ promises in modern election campaigns. The project will integrate existing qualitative methods in political science and develop new research tools based on NLP. These AI-powered tools will enable researchers to examine parties’ campaign promises in large amounts of text and speech. The resulting research will be of significant benefit to citizens, who will receive greater clarity on the choices that parties are offering. These existing and new methods are highly relevant to research on text and speech in a wide range of social science fields. Until now, progress in this field has been stifled by limited dialogue among the proponents of different qualitative and quantitative methods. The project includes established experts on parties’ campaign promises, new media, qualitative and quantitative methods for analyzing political texts, and machine learning and natural language processing.
+The project is funded by the Swedish 
+&lt;a href=&#34;https://www.rj.se/en/anslag/2019/mixed-methods-for-analyzing-political-parties-promises-to-voters-during-election-campaigns/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Riksbankens Jubileumsfond&lt;/a&gt; for 12M SEK.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

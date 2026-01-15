@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pronouns | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/pronouns/</link>
+      <atom:link href="https://dirkhovy.com/tags/pronouns/index.xml" rel="self" type="application/rss+xml" />
+    <description>pronouns</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>pronouns</title>
+      <link>https://dirkhovy.com/tags/pronouns/</link>
+    </image>
+    
+    <item>
+      <title>What about &#39;&#39;em&#39;&#39;? How Commercial Machine Translation Fails to Handle (Neo-)Pronouns</title>
+      <link>https://dirkhovy.com/publication/2023-commercial-machine-translation-fail-neopronouns/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-commercial-machine-translation-fail-neopronouns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What about &#39;&#39;em&#39;&#39;? How Commercial Machine Translation Fails to Handle (Neo-)Pronouns</title>
+      <link>https://dirkhovy.com/publication/2023-interpretability-for-fairer-machine-translation/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-interpretability-for-fairer-machine-translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to the Modern World of Pronouns: Identity-Inclusive Natural Language Processing beyond Gender</title>
+      <link>https://dirkhovy.com/publication/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-welcome_modern_world_pronouns_identity-inclusive_natural_language_processing_beyond_gender/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bertie Vidgen | Dirk Hovy</title>
+    <link>https://dirkhovy.com/authors/bertie-vidgen/</link>
+      <atom:link href="https://dirkhovy.com/authors/bertie-vidgen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bertie Vidgen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Bertie Vidgen</title>
+      <link>https://dirkhovy.com/authors/bertie-vidgen/</link>
+    </image>
+    
+    <item>
+      <title>XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-xstest/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-xstest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety </title>
+      <link>https://dirkhovy.com/publication/2024-safetyprompts/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-safetyprompts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two Contrasting Data Annotation Paradigms for Subjective NLP Tasks</title>
+      <link>https://dirkhovy.com/publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

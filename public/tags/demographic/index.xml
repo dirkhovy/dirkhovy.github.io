@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>demographic | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/demographic/</link>
+      <atom:link href="https://dirkhovy.com/tags/demographic/index.xml" rel="self" type="application/rss+xml" />
+    <description>demographic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Thu, 13 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>demographic</title>
+      <link>https://dirkhovy.com/tags/demographic/</link>
+    </image>
+    
+    <item>
+      <title>INDOMITA</title>
+      <link>https://dirkhovy.com/project/indomita/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/project/indomita/</guid>
+      <description>&lt;p&gt;Hate speech is one of the most central problems of online life, with real-life consequences: various hate crimes started as online hate.
+1 in 4 users have been harassed online (Pew Research), 63% of the targets are women (Cox commission). The pandemic-related increase of online activity has only intensified this problem: over 500 million messages are sent each day.
+To address this problem, content providers and policymakers need automated assistance in spotting and addressing hateful comments. INDOMITA will provide those methods.&lt;/p&gt;
+&lt;p&gt;But hate speech is complex. What is considered offensive varies by social norms and user demographics. &amp;ldquo;Yo, a**hole!&amp;rdquo; is acceptable among friends, but problematic with strangers.
+But current hate speech detection only uses the words in a message to determine whether it is hate speech or not. It does not consider who says those words and to whom, potentially missing subtle forms of hate speech and mislabeling harmless interactions due to overreliance on keywords. This overly simplified approach is a significant limitation. Our user-based approach will address that.&lt;/p&gt;
+&lt;p&gt;But &amp;ldquo;better&amp;rdquo; detection is subjective: people have very different thresholds for what they find offensive. Current evaluation metrics do not allow for such nuance. Any tool that improves the overall detection rate will be judged sufficient. But a tool that works great for most users, but fails for some other groups might achieve good performance. It still fails in the task it was designed to do. Our fairness metrics will correct this.&lt;/p&gt;
+&lt;p&gt;But detection alone does not solve the problem. Interventions like counterspeech or education have a lasting impact on abusive users. It can be enough to alert them to the hurtful nature of their message. At other times, they will only respond if someone they perceive as authoritative engages in a discussion. This decision requires an understanding of the abusive user&amp;rsquo;s social context. Our user-based counterspeech approach facilitates this.&lt;/p&gt;
+&lt;p&gt;Our novel, user-centered approach will address hatespeech in three ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;comprehensively modeling a complex issue to improve detection across input formats (text, images, and video), by incorporating socio-demographic context into the model.&lt;/li&gt;
+&lt;li&gt;developing methods to automate counterspeech and to address abusive users effectively.&lt;/li&gt;
+&lt;li&gt;developing evaluation metrics that assess fairness and performance and account for the subjective nature of hate speech.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In sum, our user focus will revolutionize existing research on hate speech detection, both in Italian and other languages, to give authorities and media providers better ways to assess content for immediate countermeasures. It will allow us to bridge language differences more easily than purely text-based methods, as we capture socio-behavioral patterns that generalize across languages.
+It will generate revolutionary insights of the complex dynamics between online actors and the generation of online hate.&lt;/p&gt;
+&lt;p&gt;INDOMITA is supported by a MUR FARE 2020 initiative under grant agreement Prot. R20YSMBZ8S.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MENTALISM</title>
+      <link>https://dirkhovy.com/project/mentalism/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/project/mentalism/</guid>
+      <description>&lt;p&gt;Over the last decade, discontent in democracy, mistrust in institutions, and the rise of populist parties have strained European societies. Underlying these tensions are often increasing inequalities in Western countries, which fuel the discontent of individuals. The Covid pandemic further exacerbated these problems, as anti-Covid measures taken by governments differently impacted societal groups.&lt;/p&gt;
+&lt;p&gt;The MENTALISM project, funded by Fondazione Cariplo under grant agreement 2022-1480, combines modern social media analysis with traditional survey data to track inequality across Italy through the lens of the pandemic.&lt;/p&gt;
+&lt;p&gt;Our ground-breaking mixed-methods approach uses machine learning and text analysis to trace online grievances in a vast corpus of social media data. We combine these methods with survey protocols and econometric analysis to validate the findings and provide actionable policy advice. MENTALISM combines the advantages of social media data (high-frequency, individual-level information) with the strength of socio-economic surveys (representativeness). Our novel interdisciplinary approach will critically evaluate the value of social media monitoring for policy feedback. Moreover, it will establish protocols for policymakers to better respond to growing grievances brought on by inequality at various steps in the process.&lt;/p&gt;
+&lt;p&gt;This interdisciplinary project is led by Profs. Carlo Schwarz (economics), and Dirk Hovy (NLP).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>INTEGRATOR</title>
+      <link>https://dirkhovy.com/project/integrator/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/project/integrator/</guid>
+      <description>&lt;p&gt;Dirk Hovy, scientific director of DMI and Professor of computer science, has won an &lt;strong&gt;ERC starting grant of 1.5mln euros&lt;/strong&gt;. His project INTEGRATOR, funded under grant agreement 949944, &lt;strong&gt;introduces demographic factors into language processing systems&lt;/strong&gt;, which will improve algorithmic performance, avoid racism, sexism, and ageism, and open up new applications.
+What if I wrote that “winning an ERC Grant, Dirk Hovy got a sick result?”. Those familiar with the use of “sick” as a synonym for “great” or “awesome” among teenagers would think that Bocconi Knowledge hired a very young writer (or someone posing as such). The rest would think I went crazy. Current artificial intelligence-based language systems wouldn’t have a clue. “Natural language processing (NLP) technologies,” Prof. Hovy says, “fail to account for demographics both in understanding language and in generating it. And this failure prevents us from reaching human-like performance. It limits possible future applications and it introduces systematic bias against underrepresented demographic groups”.&lt;/p&gt;
+&lt;p&gt;🗞️🗞️ Related articles featured in 
+&lt;a href=&#34;https://corriereinnovazione.corriere.it/2021/03/26/professore-che-insegna-algoritmi-linguaggio-senza-pregiudizi-418efdac-8e28-11eb-8542-ee1d410d331e.shtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Corriere Innovazione&lt;/a&gt; and 
+&lt;a href=&#34;https://www.bidsa.unibocconi.eu/wps/wcm/connect/Site/Bidsa/Home/News_Events/ERC&amp;#43;Dirk&amp;#43;Hovy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bocconi News&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/9NLBOaAyrVg&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

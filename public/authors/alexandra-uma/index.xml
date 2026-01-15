@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandra Uma | Dirk Hovy</title>
+    <link>https://dirkhovy.com/authors/alexandra-uma/</link>
+      <atom:link href="https://dirkhovy.com/authors/alexandra-uma/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexandra Uma</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Thu, 12 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Alexandra Uma</title>
+      <link>https://dirkhovy.com/authors/alexandra-uma/</link>
+    </image>
+    
+    <item>
+      <title>Hard and Soft Evaluation of NLP models with BOOtSTrap SAmpling - BooStSa</title>
+      <link>https://dirkhovy.com/publication/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-hard_soft_evaluation_nlp_models_bootstrap_sampling-boostsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Black &amp; White: Leveraging Annotator Disagreement via Soft-Label Multi-Task Learning</title>
+      <link>https://dirkhovy.com/publication/2021-naacl-softlabels/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-naacl-softlabels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Case for Soft Loss Functions</title>
+      <link>https://dirkhovy.com/publication/2020_aaai_softlabels/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_aaai_softlabels/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

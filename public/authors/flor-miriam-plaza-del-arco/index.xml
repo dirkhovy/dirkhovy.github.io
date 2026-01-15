@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flor Miriam Plaza-del-Arco | Dirk Hovy</title>
+    <link>https://dirkhovy.com/authors/flor-miriam-plaza-del-arco/</link>
+      <atom:link href="https://dirkhovy.com/authors/flor-miriam-plaza-del-arco/index.xml" rel="self" type="application/rss+xml" />
+    <description>Flor Miriam Plaza-del-Arco</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Flor Miriam Plaza-del-Arco</title>
+      <link>https://dirkhovy.com/authors/flor-miriam-plaza-del-arco/</link>
+    </image>
+    
+    <item>
+      <title>No for Some, Yes for Others: Persona Prompts and Other Sources of False Refusal in Language Models</title>
+      <link>https://dirkhovy.com/publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angry Men, Sad Women: Large Language Models Reflect Gendered Stereotypes in Emotion Attribution</title>
+      <link>https://dirkhovy.com/publication/2024-emotion-gender-stereotypes/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-emotion-gender-stereotypes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emotion Analysis in NLP: Trends, Gaps and Roadmap for Future Directions</title>
+      <link>https://dirkhovy.com/publication/2024-emotion-analysis-survey/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-emotion-analysis-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wisdom of Instruction-Tuned Language Model Crowds. Exploring Model Label Variation</title>
+      <link>https://dirkhovy.com/publication/2023-label-variation-llms/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-label-variation-llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Respectful or Toxic? Using Zero-Shot Learning with Language Models to Detect Hate Speech</title>
+      <link>https://dirkhovy.com/publication/2023-zero-shot-prompting-hate-speech/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-zero-shot-prompting-hate-speech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

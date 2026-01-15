@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sociodemographics | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/sociodemographics/</link>
+      <atom:link href="https://dirkhovy.com/tags/sociodemographics/index.xml" rel="self" type="application/rss+xml" />
+    <description>sociodemographics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>sociodemographics</title>
+      <link>https://dirkhovy.com/tags/sociodemographics/</link>
+    </image>
+    
+    <item>
+      <title>Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals&#39; Subjective Text Perceptions</title>
+      <link>https://dirkhovy.com/publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0100</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Socially Aware Language Technologies: Perspectives and Practices</title>
+      <link>https://dirkhovy.com/publication/2025-socially-aware-language-technologies-perspectives-practices/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0100</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-socially-aware-language-technologies-perspectives-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal and Second Language Influence on Intra-Annotator Agreement and Stability in Hate Speech Labelling</title>
+      <link>https://dirkhovy.com/publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Ecological Fallacy in Annotation: Modeling Human Label Variation goes beyond Sociodemographics</title>
+      <link>https://dirkhovy.com/publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SocioProbe: What, When, and Where Language Models Learn about Sociodemographics</title>
+      <link>https://dirkhovy.com/publication/2022-socioprobe_what_when_where_language_models_learn_about_sociodemographics/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-socioprobe_what_when_where_language_models_learn_about_sociodemographics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

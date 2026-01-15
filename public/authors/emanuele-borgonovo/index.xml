@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emanuele Borgonovo | Dirk Hovy</title>
+    <link>https://dirkhovy.com/authors/emanuele-borgonovo/</link>
+      <atom:link href="https://dirkhovy.com/authors/emanuele-borgonovo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Emanuele Borgonovo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Emanuele Borgonovo</title>
+      <link>https://dirkhovy.com/authors/emanuele-borgonovo/</link>
+    </image>
+    
+    <item>
+      <title>No for Some, Yes for Others: Persona Prompts and Other Sources of False Refusal in Language Models</title>
+      <link>https://dirkhovy.com/publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-no-for-some-yes-for-others-persona-prompts-and-other-sources-of-false-refusal-in-language-models/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

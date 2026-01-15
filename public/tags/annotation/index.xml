@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>annotation | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/annotation/</link>
+      <atom:link href="https://dirkhovy.com/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
+    <description>annotation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>annotation</title>
+      <link>https://dirkhovy.com/tags/annotation/</link>
+    </image>
+    
+    <item>
+      <title>Consistency is Key: Disentangling Label Variation in Natural Language Processing with Intra-Annotator Agreement</title>
+      <link>https://dirkhovy.com/publication/2025-consistency-key-disentangling-label-variation-nlp-intra-annotator-agreement/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-consistency-key-disentangling-label-variation-nlp-intra-annotator-agreement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals&#39; Subjective Text Perceptions</title>
+      <link>https://dirkhovy.com/publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0100</pubDate>
+      <guid>https://dirkhovy.com/publication/2025-beyond-demographics-fine-tuning-large-language-models-predict-individuals-subjective-text-perceptions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wisdom of Instruction-Tuned Language Model Crowds. Exploring Model Label Variation</title>
+      <link>https://dirkhovy.com/publication/2023-label-variation-llms/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-label-variation-llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal and Second Language Influence on Intra-Annotator Agreement and Stability in Hate Speech Labelling</title>
+      <link>https://dirkhovy.com/publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-temporal-second-language-influence-intra-annotator-agreement-stability-hate-speech-labelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Ecological Fallacy in Annotation: Modeling Human Label Variation goes beyond Sociodemographics</title>
+      <link>https://dirkhovy.com/publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-ecological-fallacy-annotation-modeling-human-label-variation-goes-beyond-sociodemographics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two Contrasting Data Annotation Paradigms for Subjective NLP Tasks</title>
+      <link>https://dirkhovy.com/publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-two-contrasting-data-annotation-paradigms-subjective-nlp-tasks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning from Disagreement: A Survey</title>
+      <link>https://dirkhovy.com/publication/2021-learning_from_disagreement_survey/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2021-learning_from_disagreement_survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Case for Soft Loss Functions</title>
+      <link>https://dirkhovy.com/publication/2020_aaai_softlabels/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_aaai_softlabels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Bayesian Models of Annotation</title>
+      <link>https://dirkhovy.com/publication/2018-comparing-bayesian-models-annotation/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2018-comparing-bayesian-models-annotation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

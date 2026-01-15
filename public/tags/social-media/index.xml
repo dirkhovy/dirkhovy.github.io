@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>social media | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/social-media/</link>
+      <atom:link href="https://dirkhovy.com/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <description>social media</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>social media</title>
+      <link>https://dirkhovy.com/tags/social-media/</link>
+    </image>
+    
+    <item>
+      <title>Leveraging Social Interactions to Detect Misinformation on Social Media</title>
+      <link>https://dirkhovy.com/publication/2023-leveraging-social-interactions-detect-misinformation-social-media/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2023-leveraging-social-interactions-detect-misinformation-social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INDOMITA</title>
+      <link>https://dirkhovy.com/project/indomita/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/project/indomita/</guid>
+      <description>&lt;p&gt;Hate speech is one of the most central problems of online life, with real-life consequences: various hate crimes started as online hate.
+1 in 4 users have been harassed online (Pew Research), 63% of the targets are women (Cox commission). The pandemic-related increase of online activity has only intensified this problem: over 500 million messages are sent each day.
+To address this problem, content providers and policymakers need automated assistance in spotting and addressing hateful comments. INDOMITA will provide those methods.&lt;/p&gt;
+&lt;p&gt;But hate speech is complex. What is considered offensive varies by social norms and user demographics. &amp;ldquo;Yo, a**hole!&amp;rdquo; is acceptable among friends, but problematic with strangers.
+But current hate speech detection only uses the words in a message to determine whether it is hate speech or not. It does not consider who says those words and to whom, potentially missing subtle forms of hate speech and mislabeling harmless interactions due to overreliance on keywords. This overly simplified approach is a significant limitation. Our user-based approach will address that.&lt;/p&gt;
+&lt;p&gt;But &amp;ldquo;better&amp;rdquo; detection is subjective: people have very different thresholds for what they find offensive. Current evaluation metrics do not allow for such nuance. Any tool that improves the overall detection rate will be judged sufficient. But a tool that works great for most users, but fails for some other groups might achieve good performance. It still fails in the task it was designed to do. Our fairness metrics will correct this.&lt;/p&gt;
+&lt;p&gt;But detection alone does not solve the problem. Interventions like counterspeech or education have a lasting impact on abusive users. It can be enough to alert them to the hurtful nature of their message. At other times, they will only respond if someone they perceive as authoritative engages in a discussion. This decision requires an understanding of the abusive user&amp;rsquo;s social context. Our user-based counterspeech approach facilitates this.&lt;/p&gt;
+&lt;p&gt;Our novel, user-centered approach will address hatespeech in three ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;comprehensively modeling a complex issue to improve detection across input formats (text, images, and video), by incorporating socio-demographic context into the model.&lt;/li&gt;
+&lt;li&gt;developing methods to automate counterspeech and to address abusive users effectively.&lt;/li&gt;
+&lt;li&gt;developing evaluation metrics that assess fairness and performance and account for the subjective nature of hate speech.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In sum, our user focus will revolutionize existing research on hate speech detection, both in Italian and other languages, to give authorities and media providers better ways to assess content for immediate countermeasures. It will allow us to bridge language differences more easily than purely text-based methods, as we capture socio-behavioral patterns that generalize across languages.
+It will generate revolutionary insights of the complex dynamics between online actors and the generation of online hate.&lt;/p&gt;
+&lt;p&gt;INDOMITA is supported by a MUR FARE 2020 initiative under grant agreement Prot. R20YSMBZ8S.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Twitter-Demographer: A Flow-based Tool to Enrich Twitter Data</title>
+      <link>https://dirkhovy.com/publication/2022-twitter_demographer/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2022-twitter_demographer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MENTALISM</title>
+      <link>https://dirkhovy.com/project/mentalism/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/project/mentalism/</guid>
+      <description>&lt;p&gt;Over the last decade, discontent in democracy, mistrust in institutions, and the rise of populist parties have strained European societies. Underlying these tensions are often increasing inequalities in Western countries, which fuel the discontent of individuals. The Covid pandemic further exacerbated these problems, as anti-Covid measures taken by governments differently impacted societal groups.&lt;/p&gt;
+&lt;p&gt;The MENTALISM project, funded by Fondazione Cariplo under grant agreement 2022-1480, combines modern social media analysis with traditional survey data to track inequality across Italy through the lens of the pandemic.&lt;/p&gt;
+&lt;p&gt;Our ground-breaking mixed-methods approach uses machine learning and text analysis to trace online grievances in a vast corpus of social media data. We combine these methods with survey protocols and econometric analysis to validate the findings and provide actionable policy advice. MENTALISM combines the advantages of social media data (high-frequency, individual-level information) with the strength of socio-economic surveys (representativeness). Our novel interdisciplinary approach will critically evaluate the value of social media monitoring for policy feedback. Moreover, it will establish protocols for policymakers to better respond to growing grievances brought on by inequality at various steps in the process.&lt;/p&gt;
+&lt;p&gt;This interdisciplinary project is led by Profs. Carlo Schwarz (economics), and Dirk Hovy (NLP).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Twitter Healthy Conversations</title>
+      <link>https://dirkhovy.com/project/twitterhealth/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/project/twitterhealth/</guid>
+      <description>&lt;p&gt;Echo chambers and online abuse are two significant problems affecting the health of conversations on social media. This interdisciplinary, multi-institutional project (led by George Washington University) helps Twitter tackle these issues by developing metrics and algorithms to measure various uncivil behaviors.
+Given the concerns about growing polarization and the spread of misinformation, our first two metrics, mutual recognition and diversity of perspectives, will help Twitter diagnose issues that arise when users isolate themselves from those who hold differing opinions. Mutual recognition measures whether and to what extent people on opposing sides of an issue acknowledge and engage with rival claims. When recognition occurs, a public sphere is established. When there is no recognition, echo chambers result. Diversity of perspectives measures the range of claims made on the platform, how likely users are to encounter (as opposed to engaging with) divergent and unfamiliar claims, and how polarized the debate is.&lt;/p&gt;
+&lt;p&gt;Our second two metrics, incivility, and intolerance, will help Twitter identify and address abuse and targeted harassment. Incivility measures the presence of anti-normative intensity in conversation, including the use of profanity and vulgarity. However, recognizing that such anti-normative communication sometimes serves justifiable&amp;ndash;and in some cases, even beneficial&amp;ndash;ends, we distinguish this concept from intolerance. Targeted attacks on individuals or groups, particularly when carried out based on gender, sexuality, race, ethnicity, religion, or ability, threaten the fundamental democratic principles of equality and freedom.&lt;/p&gt;
+&lt;p&gt;To classify these measures at scale, we draw upon existing work in various computational fields, notably natural language processing and network analysis, but take this work further in addressing the metrics outlined here. Moreover, beyond merely detecting and measuring mutual recognition, diversity of perspectives, incivility, and intolerance, we propose to study the effects these four phenomena have on users. In doing so, we offer a theoretically and empirically driven approach that will help Twitter diagnose the conversation&amp;rsquo;s relative health on its platform.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

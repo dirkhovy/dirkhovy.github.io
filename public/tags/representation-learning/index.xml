@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>representation learning | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/representation-learning/</link>
+      <atom:link href="https://dirkhovy.com/tags/representation-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>representation learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sun, 22 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>representation learning</title>
+      <link>https://dirkhovy.com/tags/representation-learning/</link>
+    </image>
+    
+    <item>
+      <title>Visualizing Regional Language Variation Across Europe on Twitter</title>
+      <link>https://dirkhovy.com/publication/2020_eutwitter/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020_eutwitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What the [MASK]? Making Sense of Language-Specific BERT Models</title>
+      <link>https://dirkhovy.com/publication/2020-bertlang-language-specific-bert/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2020-bertlang-language-specific-bert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dense Node Representation for Geolocation</title>
+      <link>https://dirkhovy.com/publication/2019_m2v/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2019_m2v/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capturing Regional Variation with Distributed Place Representations and Geographic Retrofitting</title>
+      <link>https://dirkhovy.com/publication/2018-capturing-regional-variation-distributed-representations-geographic-retrofitting/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2018-capturing-regional-variation-distributed-representations-geographic-retrofitting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Social and the Neural Network: How to Make Natural Language Processing about People again</title>
+      <link>https://dirkhovy.com/publication/2018-social-neural-network/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2018-social-neural-network/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

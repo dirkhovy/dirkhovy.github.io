@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emotion attribution | Dirk Hovy</title>
+    <link>https://dirkhovy.com/tags/emotion-attribution/</link>
+      <atom:link href="https://dirkhovy.com/tags/emotion-attribution/index.xml" rel="self" type="application/rss+xml" />
+    <description>Emotion attribution</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©  Dirk Hovy, 2026</copyright><lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dirkhovy.com/images/icon_huf5895639c94b85425f6a15eb3aa47208_32923_512x512_fill_lanczos_center_3.png</url>
+      <title>Emotion attribution</title>
+      <link>https://dirkhovy.com/tags/emotion-attribution/</link>
+    </image>
+    
+    <item>
+      <title>Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models</title>
+      <link>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-divine-llamas-emotion-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angry Men, Sad Women: Large Language Models Reflect Gendered Stereotypes in Emotion Attribution</title>
+      <link>https://dirkhovy.com/publication/2024-emotion-gender-stereotypes/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dirkhovy.com/publication/2024-emotion-gender-stereotypes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
