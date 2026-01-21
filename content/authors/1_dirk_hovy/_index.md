@@ -63,9 +63,8 @@ Welcome!
 
 I am a Professor in the [Computing Sciences Department of Bocconi University](https://cs.unibocconi.eu/) in Milan, where I lead the [MilaNLP](https://milanlproc.github.io/) lab together with [Debora Nozza](https://www.deboranozza.com).
 I am also the scientific director of the [Data and Marketing Insights](www.dmi.unibocconi.eu/) research unit.
-Previously, I was CS faculty at the University of Copenhagen, got a PhD from USC's Information Sciences Institute, and a master's degree in linguistics from Marburg University, Germany.
 
-I am interested in the interaction between language, society, and machine learning, or **what computers can tell us about language and what language can tell us about society**. I am also interested in ethical questions of bias and algorithmic fairness in machine learning.
+I am interested in **what computers can tell us about language and what language can tell us about society**. That includes questions of bias and algorithmic fairness in machine learning.
 
 I have authored over [150 articles on these topics](https://scholar.google.com/citations?user=7xluaTAAAAAJ&hl=en&oi=ao), including 3 best and one outstanding paper awards, and have published [two](https://www.cambridge.org/core/elements/text-analysis-in-python-for-social-scientists/BFAB0A3604C7E29F6198EA2F7941DFF3) [textbooks](https://www.cambridge.org/core/elements/abs/text-analysis-in-python-for-social-scientists/54B82AEA3FB586919A2265E6799ACB11) on text processing in Python for social scientists.
 
