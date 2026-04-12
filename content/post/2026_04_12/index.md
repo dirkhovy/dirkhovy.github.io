@@ -1,6 +1,10 @@
-# AI's Challenge to Higher Education 
+---
+title: "AI's Challenge to Higher Education "
+authors: [Dirk Hovy]
+date: 2026-04-12
+---
 
-When my university, Bocconi, introduced OpenAI access to all faculty, staff, and students in June 2025, a colleague approached me and asked what we should do “now that the students have access to AI”. The concern in their question was genuine and understandable. But it also betrayed an illusion or naiveté: students have had access to AI since November 2022. AI is not around the corner; it is already here. What has changed is not AI’s availability, but our perception of it.
+When my university, Bocconi, introduced OpenAI access to all faculty, staff, and students in June 2025, a colleague approached me and asked what we should do “now that the students have access to AI”. The concern in their question was genuine and understandable. But it also betrayed an illusion: students have had access to AI since November 2022. AI is not around the corner; it is already here. What has changed is not AI’s availability, but our perception of it.
 
 This attitude toward AI – the ostrich approach – is common. Hoping it will all blow over is ill-placed in this case. Other inventions have affected education, but none have had a such an all-encompassing impact. We cannot continue teaching as before.
 
