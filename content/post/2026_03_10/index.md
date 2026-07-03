@@ -1,5 +1,5 @@
 ---
-title: "Sel-conscious Hammers"
+title: "Self-conscious Hammers"
 authors: [Dirk Hovy]
 date: 2026-03-10
 ---
