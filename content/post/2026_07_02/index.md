@@ -43,9 +43,9 @@ There is one more reason to be hopeful. The speed demon will force academia to d
 
 
 # Sources
--	Paul Goldsmith-Pinkham, “Research in the Time of AI” (2026): paulgp.com/2026/03/16/research-in-time-of-ai.html
--	Dave Karpf, “Can AI Replace Social Science Researchers?” (2026): davekarpf.beehiiv.com/p/can-ai-replace-social-science-researchers
--	Alexander Kustov, “Academics Need to Wake Up on AI” (2026): popularbydesign.org/p/academics-need-to-wake-up-on-ai
--	Alexander Kustov, “Academics Need to Wake Up on AI, Part II” (2026): popularbydesign.org/p/academics-need-to-wake-up-on-ai-part
+-	Paul Goldsmith-Pinkham, “Research in the Time of AI” (2026): [paulgp.com/2026/03/16/research-in-time-of-ai.html](paulgp.com/2026/03/16/research-in-time-of-ai.html)
+-	Dave Karpf, “Can AI Replace Social Science Researchers?” (2026): [davekarpf.beehiiv.com/p/can-ai-replace-social-science-researchers](davekarpf.beehiiv.com/p/can-ai-replace-social-science-researchers)
+-	Alexander Kustov, “Academics Need to Wake Up on AI” (2026): [popularbydesign.org/p/academics-need-to-wake-up-on-ai](popularbydesign.org/p/academics-need-to-wake-up-on-ai)
+-	Alexander Kustov, “Academics Need to Wake Up on AI, Part II” (2026): [popularbydesign.org/p/academics-need-to-wake-up-on-ai-part](popularbydesign.org/p/academics-need-to-wake-up-on-ai-part)
 -	Julian Togelius and Georgios N. Yannakakis, “Choose Your Weapon: Survival Strategies for Depressed AI Academics” (2024): IEEE Xplore
-- Hadley Wickham, "y code when ai?" (2026): https://www.youtube.com/watch?v=oi5mopOO4_Y
+- Hadley Wickham, "y code when ai?" (2026): [https://www.youtube.com/watch?v=oi5mopOO4_Y](https://www.youtube.com/watch?v=oi5mopOO4_Y)
