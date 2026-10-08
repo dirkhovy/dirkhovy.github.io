@@ -1,32 +1,32 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Fünf ethische Herausforderungen in Sprachtechnologie, und wie wir sie adressieren können "
-event: "University of Zurich – Ringvorlesung: Digital Religions"
-event_url: 
+title: "15 Minutes Break | AI Knows Everything. So Why Study?"
+event: "Università Bocconi"
+event_url:
 location:
-summary: 
-abstract: 
+summary:
+abstract:
 
 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2023-10-19T18:00:32+02:00
-date_end: 2023-10-19T19:00:32+02:00
+date: 2026-10-07T18:00:32+02:00
+date_end: 2026-10-07T18:15:32+02:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: 2021-04-09T14:39:32+02:00
 
-authors: []
-tags: [talk]
+authors: ["Università Bocconi"]
+tags: [interview]
 
 # Is this a featured talk? (true/false)
 featured: false
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -46,7 +46,7 @@ url_slides:
 
 url_code:
 url_pdf:
-url_video: "https://uzh.mediaspace.cast.switch.ch/media/Fu%CC%88nf+ethische+Herausforderungen+in+Sprachtechnologie%2C+und+wie+wir+sie+adressieren+k%C3%B6nnen/0_b3lfttlh/81651"
+url_video: "https://www.youtube.com/watch?v=kclp5Kc-wQ8"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
